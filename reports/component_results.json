@@ -1,0 +1,769 @@
+{
+  "evaluation_type": "offline search-tool contract evaluation",
+  "scope": "Dataset membership, category/budget eligibility, default limits, uniqueness and repeatability; not model tool-selection quality.",
+  "case_count": 20,
+  "tool_invocations": 120,
+  "case_tool_contracts": 60,
+  "results": [
+    {
+      "case_id": "G01",
+      "components": {
+        "activities": {
+          "eligible_count": 858,
+          "returned_count": 30,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "restaurants": {
+          "eligible_count": 13487,
+          "returned_count": 10,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "hotels": {
+          "eligible_count": 19,
+          "returned_count": 5,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        }
+      }
+    },
+    {
+      "case_id": "G02",
+      "components": {
+        "activities": {
+          "eligible_count": 207,
+          "returned_count": 30,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "restaurants": {
+          "eligible_count": 3978,
+          "returned_count": 10,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "hotels": {
+          "eligible_count": 14,
+          "returned_count": 5,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        }
+      }
+    },
+    {
+      "case_id": "G03",
+      "components": {
+        "activities": {
+          "eligible_count": 9,
+          "returned_count": 9,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "restaurants": {
+          "eligible_count": 366,
+          "returned_count": 10,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "hotels": {
+          "eligible_count": 22,
+          "returned_count": 5,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        }
+      }
+    },
+    {
+      "case_id": "G04",
+      "components": {
+        "activities": {
+          "eligible_count": 9,
+          "returned_count": 9,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "restaurants": {
+          "eligible_count": 13487,
+          "returned_count": 10,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "hotels": {
+          "eligible_count": 19,
+          "returned_count": 5,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        }
+      }
+    },
+    {
+      "case_id": "G05",
+      "components": {
+        "activities": {
+          "eligible_count": 9,
+          "returned_count": 9,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "restaurants": {
+          "eligible_count": 3978,
+          "returned_count": 10,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "hotels": {
+          "eligible_count": 14,
+          "returned_count": 5,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        }
+      }
+    },
+    {
+      "case_id": "G06",
+      "components": {
+        "activities": {
+          "eligible_count": 4,
+          "returned_count": 4,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "restaurants": {
+          "eligible_count": 366,
+          "returned_count": 10,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "hotels": {
+          "eligible_count": 22,
+          "returned_count": 5,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        }
+      }
+    },
+    {
+      "case_id": "G07",
+      "components": {
+        "activities": {
+          "eligible_count": 4,
+          "returned_count": 4,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "restaurants": {
+          "eligible_count": 13487,
+          "returned_count": 10,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "hotels": {
+          "eligible_count": 19,
+          "returned_count": 5,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        }
+      }
+    },
+    {
+      "case_id": "G08",
+      "components": {
+        "activities": {
+          "eligible_count": 4,
+          "returned_count": 4,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "restaurants": {
+          "eligible_count": 3978,
+          "returned_count": 10,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "hotels": {
+          "eligible_count": 14,
+          "returned_count": 5,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        }
+      }
+    },
+    {
+      "case_id": "G09",
+      "components": {
+        "activities": {
+          "eligible_count": 1065,
+          "returned_count": 30,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "restaurants": {
+          "eligible_count": 366,
+          "returned_count": 10,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "hotels": {
+          "eligible_count": 22,
+          "returned_count": 5,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        }
+      }
+    },
+    {
+      "case_id": "G10",
+      "components": {
+        "activities": {
+          "eligible_count": 18,
+          "returned_count": 18,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "restaurants": {
+          "eligible_count": 13487,
+          "returned_count": 10,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "hotels": {
+          "eligible_count": 19,
+          "returned_count": 5,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        }
+      }
+    },
+    {
+      "case_id": "G11",
+      "components": {
+        "activities": {
+          "eligible_count": 13,
+          "returned_count": 13,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "restaurants": {
+          "eligible_count": 3978,
+          "returned_count": 10,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "hotels": {
+          "eligible_count": 14,
+          "returned_count": 5,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        }
+      }
+    },
+    {
+      "case_id": "G12",
+      "components": {
+        "activities": {
+          "eligible_count": 862,
+          "returned_count": 30,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "restaurants": {
+          "eligible_count": 366,
+          "returned_count": 10,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "hotels": {
+          "eligible_count": 22,
+          "returned_count": 5,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        }
+      }
+    },
+    {
+      "case_id": "G13",
+      "components": {
+        "activities": {
+          "eligible_count": 216,
+          "returned_count": 30,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "restaurants": {
+          "eligible_count": 13487,
+          "returned_count": 10,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "hotels": {
+          "eligible_count": 19,
+          "returned_count": 5,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        }
+      }
+    },
+    {
+      "case_id": "G14",
+      "components": {
+        "activities": {
+          "eligible_count": 18,
+          "returned_count": 18,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "restaurants": {
+          "eligible_count": 3978,
+          "returned_count": 10,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "hotels": {
+          "eligible_count": 14,
+          "returned_count": 5,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        }
+      }
+    },
+    {
+      "case_id": "G15",
+      "components": {
+        "activities": {
+          "eligible_count": 8,
+          "returned_count": 8,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "restaurants": {
+          "eligible_count": 366,
+          "returned_count": 10,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "hotels": {
+          "eligible_count": 22,
+          "returned_count": 5,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        }
+      }
+    },
+    {
+      "case_id": "G16",
+      "components": {
+        "activities": {
+          "eligible_count": 871,
+          "returned_count": 30,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "restaurants": {
+          "eligible_count": 13487,
+          "returned_count": 10,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "hotels": {
+          "eligible_count": 19,
+          "returned_count": 5,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        }
+      }
+    },
+    {
+      "case_id": "G17",
+      "components": {
+        "activities": {
+          "eligible_count": 225,
+          "returned_count": 30,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "restaurants": {
+          "eligible_count": 3978,
+          "returned_count": 10,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "hotels": {
+          "eligible_count": 14,
+          "returned_count": 5,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        }
+      }
+    },
+    {
+      "case_id": "G18",
+      "components": {
+        "activities": {
+          "eligible_count": 1069,
+          "returned_count": 30,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "restaurants": {
+          "eligible_count": 366,
+          "returned_count": 10,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "hotels": {
+          "eligible_count": 22,
+          "returned_count": 5,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        }
+      }
+    },
+    {
+      "case_id": "G19",
+      "components": {
+        "activities": {
+          "eligible_count": 22,
+          "returned_count": 22,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "restaurants": {
+          "eligible_count": 13487,
+          "returned_count": 10,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "hotels": {
+          "eligible_count": 19,
+          "returned_count": 5,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        }
+      }
+    },
+    {
+      "case_id": "G20",
+      "components": {
+        "activities": {
+          "eligible_count": 1074,
+          "returned_count": 30,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "restaurants": {
+          "eligible_count": 3978,
+          "returned_count": 10,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        },
+        "hotels": {
+          "eligible_count": 14,
+          "returned_count": 5,
+          "checks": {
+            "all_returned_ids_eligible": true,
+            "no_duplicate_candidates": true,
+            "expected_candidate_count": true,
+            "repeat_call_same_ids": true
+          },
+          "passed": true
+        }
+      }
+    }
+  ]
+}

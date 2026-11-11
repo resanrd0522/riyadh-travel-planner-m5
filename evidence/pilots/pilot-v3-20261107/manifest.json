@@ -1,0 +1,67 @@
+{
+  "identity": {
+    "experiment_version": "pilot-v3-20261107",
+    "evidence_mode": "live",
+    "scorer_version": "m5-offline-v3",
+    "generation_policy": "m5-gemini-v3",
+    "settings": {
+      "model": "gemini-3.5-flash-lite",
+      "temperature": 0,
+      "max_attempts": 1,
+      "maximum_remote_calls": 10
+    },
+    "cases": [
+      {
+        "case_id": "G01",
+        "trip_duration": 1,
+        "interests": [
+          "Shopping"
+        ],
+        "budget_level": "Low"
+      }
+    ],
+    "seeds": [
+      11
+    ],
+    "dataset_sha256": {
+      "activities": "df5abb1fbb5fe13e0e8f20776fc83f707f2d7bf5e610a36acedb06cffa76d01f",
+      "restaurants": "2f808d6007d026b3c11b38ea9c922560b97920f3da82020b3662b24313c63cbc",
+      "hotels": "910e7b6055b37fd76c0aec254e4e8f5cf9a6028735096a112f512f3c715ae878"
+    },
+    "source_sha256": {
+      "m5eval/__init__.py": "007b773981ab0b88611eb030bb5c6e765030ca3e97fff347167948f32247ffb3",
+      "m5eval/__main__.py": "fa93afceb72b559c9ec91a1f4a1b8ac81f2c1fe10867027addf155ae49c502e2",
+      "m5eval/baseline_tools.py": "f9fa6c9210385b613bc8e4b5b76c27030f5def6f602f51b3a7a75570d04ea1bc",
+      "m5eval/components.py": "42d5bb1c826bd25b94893c615e35155cf6cac612d66fd4922673140f1567f0a8",
+      "m5eval/demo.py": "a6e3c8161fde33b9f12349dff1ebe33f46e668cee0512cc282f4fcefa348d50a",
+      "m5eval/evaluate.py": "783d38e783060d585bce8f6d7cfd2eec896289597c082ae964c84baab02c283f",
+      "m5eval/experiment.py": "f5783fce81b04f39cc34a03b54853dcc1a20a3f4618775c433676ba5c5f022f9",
+      "m5eval/generation.py": "0ac6cc92a151d61f1fb0673c422f7f00ae5c7d1a59dd65ea71666cbc7bc7af47",
+      "m5eval/records.py": "2007ae0adc9840d32589f4d2b7f71e0fcf8e5904914fc4e1a4840645d50ecf74",
+      "m5eval/scoring.py": "d2fb4c3985b34c2b8245ac6fed2b6142b050f6b4a3f6002cf1998790fa40180d",
+      "m5eval/statistics.py": "6418d76abb06238f6e3a01a03910e0ac96c886e6fe67d88c297d1c6981729830",
+      "requirements.txt": "50bd36afe0a4a4950f51db01fddfedc5d16814a1664c8a21a02e7c247b481bda",
+      "requirements-gemini.txt": "17a6c00a64cf6071ed0140d8db15a3a8ba031ec1da6c20275c04e66132ba76cf"
+    },
+    "code_commit": null,
+    "csv_float_precision": "round_trip",
+    "expected_sdk_version": "1.30.0",
+    "backend_options": {
+      "http_request_cap": 4,
+      "timeout_ms": 30000,
+      "sdk_retry_attempts": 1
+    },
+    "python_packages": {
+      "pandas": "2.2.3",
+      "numpy": "2.3.5",
+      "google-genai": "1.30.0",
+      "httpx": "0.28.1",
+      "pydantic": "2.14.3",
+      "tenacity": "9.1.4",
+      "google-auth": "2.49.0"
+    }
+  },
+  "identity_sha256": "f950a15228684cf10f5622c064cc7147f10c0d894d4f43c45b9c3bfaff34b858",
+  "created_at_utc": "2026-11-07T08:47:02.632646+00:00",
+  "original_v1_v2_modified": false
+}

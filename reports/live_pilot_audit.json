@@ -1,0 +1,29 @@
+{
+  "status": "PASS for supplied pilot evidence consistency and offline recomputation",
+  "case_id": "G01",
+  "seed": 11,
+  "evidence_mode": "live",
+  "source_files_matching": 13,
+  "datasets_matching": 3,
+  "http_requests_recorded": 2,
+  "successful_http_responses_recorded": 2,
+  "tool_results_reproduced": 3,
+  "all_recommendations_returned_by_tools": true,
+  "evaluation": {
+    "scorer_version": "m5-offline-v3",
+    "APM": 100.0,
+    "RBM": 100.0,
+    "HBM": 100.0,
+    "IFR": 100.0,
+    "feasible": true,
+    "validation_errors": []
+  },
+  "RTC": 100.0,
+  "wall_time_ms_recorded": 2125.96035200022,
+  "cost_usd": null,
+  "limits": [
+    "One pilot, not a completed 20-case/three-seed cohort.",
+    "Internal consistency of supplied logs is verified, not cryptographic provider attestation.",
+    "Provider seed effectiveness, billing cost and historical V2 outputs remain unverified."
+  ]
+}

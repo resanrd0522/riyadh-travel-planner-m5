@@ -1,0 +1,37 @@
+test_activity_exclusion_and_zero_candidates (test_components.ComponentTests.test_activity_exclusion_and_zero_candidates) ... ok
+test_budget_exclusion (test_components.ComponentTests.test_budget_exclusion) ... ok
+test_invalid_tool_inputs (test_components.ComponentTests.test_invalid_tool_inputs) ... ok
+test_round_trip_reader_reproduces_all_frozen_dataframe_hashes (test_components.ComponentTests.test_round_trip_reader_reproduces_all_frozen_dataframe_hashes) ... ok
+test_credential_text_refused_before_write (test_evidence.EvidenceTests.test_credential_text_refused_before_write) ... ok
+test_failure_records_are_zero_and_success_is_not_inferred (test_evidence.EvidenceTests.test_failure_records_are_zero_and_success_is_not_inferred) ... ok
+test_future_record_preserves_actual_evidence_and_refuses_overwrite (test_evidence.EvidenceTests.test_future_record_preserves_actual_evidence_and_refuses_overwrite) ... ok
+test_later_samples_match_recorded_scores_without_identity_claim (test_evidence.EvidenceTests.test_later_samples_match_recorded_scores_without_identity_claim) ... ok
+test_preserved_files (test_evidence.EvidenceTests.test_preserved_files) ... ok
+test_reviewer_contradictory_failure_regression (test_evidence.EvidenceTests.test_reviewer_contradictory_failure_regression) ... ok
+test_reviewer_credential_alias_regression (test_evidence.EvidenceTests.test_reviewer_credential_alias_regression) ... ok
+test_reviewer_tuple_sanitation_regression (test_evidence.EvidenceTests.test_reviewer_tuple_sanitation_regression) ... ok
+test_saved_statistics_keep_aggregation_levels_separate (test_evidence.EvidenceTests.test_saved_statistics_keep_aggregation_levels_separate) ... ok
+test_bad_containers (test_scoring.ScoringTests.test_bad_containers) ... ok
+test_bad_day_number_including_boolean (test_scoring.ScoringTests.test_bad_day_number_including_boolean) ... ok
+test_blank_malformed_and_wrong_top_level (test_scoring.ScoringTests.test_blank_malformed_and_wrong_top_level) ... ok
+test_duplicate_activity_does_not_earn_double_credit (test_scoring.ScoringTests.test_duplicate_activity_does_not_earn_double_credit) ... ok
+test_duplicates_across_days (test_scoring.ScoringTests.test_duplicates_across_days) ... ok
+test_extra_days_cannot_replace_earlier_failures (test_scoring.ScoringTests.test_extra_days_cannot_replace_earlier_failures) ... ok
+test_extra_slots_cannot_replace_earlier_failures (test_scoring.ScoringTests.test_extra_slots_cannot_replace_earlier_failures) ... ok
+test_invalid_cases_are_configuration_errors (test_scoring.ScoringTests.test_invalid_cases_are_configuration_errors) ... ok
+test_json_input_and_single_hotel (test_scoring.ScoringTests.test_json_input_and_single_hotel) ... ok
+test_malformed_activity_ids_never_throw (test_scoring.ScoringTests.test_malformed_activity_ids_never_throw) ... ok
+test_missing_activity_uses_required_denominator (test_scoring.ScoringTests.test_missing_activity_uses_required_denominator) ... ok
+test_missing_day_uses_requested_duration (test_scoring.ScoringTests.test_missing_day_uses_requested_duration) ... ok
+test_nonmatching_activities_can_be_structurally_valid (test_scoring.ScoringTests.test_nonmatching_activities_can_be_structurally_valid) ... ok
+test_tool_coverage_is_not_call_count (test_scoring.ScoringTests.test_tool_coverage_is_not_call_count) ... ok
+test_unknown_and_wrong_dataset_id (test_scoring.ScoringTests.test_unknown_and_wrong_dataset_id) ... ok
+test_valid_and_repeated_restaurants (test_scoring.ScoringTests.test_valid_and_repeated_restaurants) ... ok
+test_wrong_budget (test_scoring.ScoringTests.test_wrong_budget) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.215s
+
+OK
+PASS: 78 preserved artifacts, 60 historical records, 20 supplementary outputs and 60 component contracts.
+Historical original-output validation remains incomplete; see reports/RESULTS.md.

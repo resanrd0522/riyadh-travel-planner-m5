@@ -1,0 +1,764 @@
+{
+  "archive": {
+    "name": "Riyadh_Travel_Planner_M5_Master-20261106T161745Z-1-001.zip",
+    "bytes": 3255489,
+    "sha256": "192652fd17256d3b50667c406fdbbd3aacbd003bbddcdeadfaa5e58e2f092a43"
+  },
+  "policy": "All 75 original files imported unchanged, including five ZIPs, plus three extracted dataset files. No credential-pattern matches were found; no redactions were applied. Empty directories are inventoried separately because Git does not store empty directories.",
+  "scan": {
+    "filesIncludingNested": 206,
+    "patterns": [
+      "google",
+      "openai",
+      "github",
+      "private-key",
+      "bearer",
+      "aws",
+      "assignment"
+    ],
+    "credentialMatches": 0,
+    "filenameCandidates": 0,
+    "limitations": "Pattern-based scanning cannot guarantee absence of every secret or sensitive datum. Notebooks were parsed as data, never executed."
+  },
+  "emptyDirectories": [
+    "03_Labs/",
+    "04_Course_Chapters/",
+    "01_Requirements_and_Rubric/",
+    "02_M4_Baseline/",
+    "05_M5_Evaluation/llm_judge_evaluation/treatment_samples/",
+    "05_M5_Evaluation/llm_judge_evaluation/judge_results/"
+  ],
+  "files": [
+    {
+      "path": "source/05_M5_Evaluation/M5_Baseline_Results_Extraction.csv",
+      "sha256": "152c6b3069fe5ffbef5496fd9083d57b2d67bd3ee60ab0ac4fd63a95db3b603d",
+      "bytes": 9048,
+      "source": "05_M5_Evaluation/M5_Baseline_Results_Extraction.csv",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/Riyadh_Travel_Planner_LLM_Judge_Evaluation.ipynb",
+      "sha256": "4d7c79d243d6b6ec8108d122a77e59e4597b5ba9561d3d504a66597c723f1efb",
+      "bytes": 194087,
+      "source": "05_M5_Evaluation/Riyadh_Travel_Planner_LLM_Judge_Evaluation.ipynb",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/Riyadh_Travel_Planner_M5_Evaluation.ipynb",
+      "sha256": "5913a427fe98c8fc76f0d9672880ac1dd2a534a174dd0bf5413b4b518a2e9771",
+      "bytes": 1717055,
+      "source": "05_M5_Evaluation/Riyadh_Travel_Planner_M5_Evaluation.ipynb",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/baseline_v1_archive/archive_manifest.json",
+      "sha256": "b37cd51e61c2ed6fbf10c3bf22bc92094686991d244c2cf32006aed79089a956",
+      "bytes": 675,
+      "source": "05_M5_Evaluation/baseline_v1_archive/archive_manifest.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/baseline_v1_archive/baseline_m5_audit_summary.json",
+      "sha256": "3648b46f19d06f12684e1b0a4cb3bb383b971803ae8a4310a3c6442a4beadb18",
+      "bytes": 1239,
+      "source": "05_M5_Evaluation/baseline_v1_archive/baseline_m5_audit_summary.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/baseline_v1_archive/baseline_results.json",
+      "sha256": "f86c4360a5166b3c01bbc4bbc02899ffba0735c470c63108576fa772f422d9cc",
+      "bytes": 28607,
+      "source": "05_M5_Evaluation/baseline_v1_archive/baseline_results.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/baseline_v2_standardized/M5_Baseline_Results_Extraction.csv",
+      "sha256": "152c6b3069fe5ffbef5496fd9083d57b2d67bd3ee60ab0ac4fd63a95db3b603d",
+      "bytes": 9048,
+      "source": "05_M5_Evaluation/baseline_v2_standardized/M5_Baseline_Results_Extraction.csv",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/baseline_v2_standardized/baseline_results_v2.json",
+      "sha256": "454f4782fe07b6adbcd3eb283cf59412008c5032a04c54e0f326de6c29c6008d",
+      "bytes": 28796,
+      "source": "05_M5_Evaluation/baseline_v2_standardized/baseline_results_v2.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/baseline_v2_standardized/baseline_v2_implementation_reference.json",
+      "sha256": "3fcc392c57f8e429204df7c3ec5fe3bc752a84d0d20ad1b0e2a7cd0d42511c0a",
+      "bytes": 22303,
+      "source": "05_M5_Evaluation/baseline_v2_standardized/baseline_v2_implementation_reference.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/baseline_v2_standardized/baseline_v2_official_summary.json",
+      "sha256": "94cd72492e1882f6625b50fa99d2b44a3404095969a71ee6e35380d424a9da63",
+      "bytes": 13934,
+      "source": "05_M5_Evaluation/baseline_v2_standardized/baseline_v2_official_summary.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/baseline_v2_standardized/baseline_v2_overall_metrics.csv",
+      "sha256": "96eff48d6ea4fcdd0b8b616d3df526b45713115bbce2c918c9323e173b207573",
+      "bytes": 160,
+      "source": "05_M5_Evaluation/baseline_v2_standardized/baseline_v2_overall_metrics.csv",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/baseline_v2_standardized/baseline_v2_per_case_metrics.csv",
+      "sha256": "441a4f14f64f25401d77aaad991304c5d696bd16009691afa174e50cb834bfd1",
+      "bytes": 1177,
+      "source": "05_M5_Evaluation/baseline_v2_standardized/baseline_v2_per_case_metrics.csv",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/baseline_v2_standardized/experiment_config_v2.json",
+      "sha256": "a4ba2e4b48d2c58152c9c391688551b7aec1aa5d5039295bc44d5a819ad91280",
+      "bytes": 993,
+      "source": "05_M5_Evaluation/baseline_v2_standardized/experiment_config_v2.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/baseline_v2_standardized/golden_set_ground_truth_feasibility.csv",
+      "sha256": "0793ab9a3e225afca9ee8504b852094050de17fda1460afd5cd1bd9f1b2a16e4",
+      "bytes": 2230,
+      "source": "05_M5_Evaluation/baseline_v2_standardized/golden_set_ground_truth_feasibility.csv",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/baseline_v2_standardized/golden_set_ground_truth_feasibility.json",
+      "sha256": "59322dacbc986ad5b68d9e7d614fd590b433fdf747353663b5c677768c279da9",
+      "bytes": 12019,
+      "source": "05_M5_Evaluation/baseline_v2_standardized/golden_set_ground_truth_feasibility.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/diagnostics_and_logs/baseline_m5_audit_summary.json",
+      "sha256": "3648b46f19d06f12684e1b0a4cb3bb383b971803ae8a4310a3c6442a4beadb18",
+      "bytes": 1239,
+      "source": "05_M5_Evaluation/diagnostics_and_logs/baseline_m5_audit_summary.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/diagnostics_and_logs/baseline_recovery_log.json",
+      "sha256": "b08c467532ffad78e63d138db7e880f946f8d01944c617a712311981ffb509d4",
+      "bytes": 3977,
+      "source": "05_M5_Evaluation/diagnostics_and_logs/baseline_recovery_log.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/diagnostics_and_logs/baseline_results.json",
+      "sha256": "f86c4360a5166b3c01bbc4bbc02899ffba0735c470c63108576fa772f422d9cc",
+      "bytes": 28607,
+      "source": "05_M5_Evaluation/diagnostics_and_logs/baseline_results.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/diagnostics_and_logs/g03_original_api_failures.json",
+      "sha256": "e2e1a6082ee1777d46cfa14449b4652ab2a2df2e043158ca6987d7731cb18b47",
+      "bytes": 1796,
+      "source": "05_M5_Evaluation/diagnostics_and_logs/g03_original_api_failures.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/diagnostics_and_logs/g15_response_diagnostic_seed11.json",
+      "sha256": "fe55d71cc136f09d208d372d01bad454712d39099e498253d504e88b7416b7b5",
+      "bytes": 876,
+      "source": "05_M5_Evaluation/diagnostics_and_logs/g15_response_diagnostic_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/diagnostics_and_logs/m5_json_parser_fix_documentation.json",
+      "sha256": "104fdf7c0ee01c58152388a6dc58d3d394d31267fd0cbd727ea161c30d3f632b",
+      "bytes": 1132,
+      "source": "05_M5_Evaluation/diagnostics_and_logs/m5_json_parser_fix_documentation.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G01_seed11.json",
+      "sha256": "280a04417101068cbd311433b04b0e73cc223aa912262661c090e5c2362afc88",
+      "bytes": 2869,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G01_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G02_seed11.json",
+      "sha256": "476d2b5864180eb51dd3a9324d1fed974cc14df9eb77ea0a5e79a45f1a0648d2",
+      "bytes": 4773,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G02_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G03_seed11.json",
+      "sha256": "de42bddefd328deb7bee9eb658e188b340994ae8301d3506e86fe8ede53a9262",
+      "bytes": 6836,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G03_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G04_seed11.json",
+      "sha256": "35071bed6caf7f497341e9bf6a998388ba207c9a173f8ab632a5e98d5a4444fe",
+      "bytes": 8608,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G04_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G05_seed11.json",
+      "sha256": "b52ff97936130a16b1e6d8c9134e4319503b186eef0bc8f5f3004d428ae3750c",
+      "bytes": 10560,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G05_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G06_seed11.json",
+      "sha256": "26c0060099be1629c3b1254ca0b67064feced4dc8f8af39fc0ec753432eb25ae",
+      "bytes": 2764,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G06_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G07_seed11.json",
+      "sha256": "9d5c706e1ace4235d53202ae9c71ff9f84e6042f26f1ca5ef48be475d39c7162",
+      "bytes": 4755,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G07_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G08_seed11.json",
+      "sha256": "fc869ab078571b4b123bac21139dff762c0d593ab3d0e0bfae00680bec41ac5e",
+      "bytes": 6609,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G08_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G09_seed11.json",
+      "sha256": "826f488262668dc1ef8379e42a620185346d423b8d9983863bcf406aa16ffdea",
+      "bytes": 8928,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G09_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G10_seed11.json",
+      "sha256": "ea1faf30bc594c32d2bac79fd684102f98d9e4d0dd5f9450a9576abb59be26e6",
+      "bytes": 10511,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G10_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G11_seed11.json",
+      "sha256": "e38ab51b3353efa2e33e083096f5343d21d2b7e0763c66dce1d76012d31fca59",
+      "bytes": 2829,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G11_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G12_seed11.json",
+      "sha256": "7452b9b79942250a12193fc4d346ec6eb15b58f34e7776e619cc02f9f53c188b",
+      "bytes": 4876,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G12_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G13_seed11.json",
+      "sha256": "96dd9f26b2789843de2450fce3a31581514dced058a3601effcdeb0e8e790251",
+      "bytes": 6788,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G13_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G14_seed11.json",
+      "sha256": "e5e3dec6adc1d86d4702208bb449743985bd602855ada259176d7248b194aa01",
+      "bytes": 8689,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G14_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G15_seed11.json",
+      "sha256": "a9490c5181f66bdc145652ed119edf2ffd3bd6ed02f50411c147e92cc0baf540",
+      "bytes": 10776,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G15_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G16_seed11.json",
+      "sha256": "808e9ce375d72564d173caa5795b9d404e817965d059d94e1824c9f5aafcd7ed",
+      "bytes": 2912,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G16_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G17_seed11.json",
+      "sha256": "5fd212f1249ec7c4da118f4f571044ed46d8079d4bc590a11e788a45cf34756a",
+      "bytes": 4777,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G17_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G18_seed11.json",
+      "sha256": "98f8f8a360c9e6038f39df21fd8e7d60b1e2cfe725555459b222239c7864ade1",
+      "bytes": 6914,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G18_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G19_seed11.json",
+      "sha256": "81830064e07a7c8b7ba056c6cd347216cade596e8ee0ecb77792afce056124dd",
+      "bytes": 8606,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G19_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G20_seed11.json",
+      "sha256": "aac6f03c311b68bbd8abdf7a738074b330ba1bf9af964fa8a068c6fc9ece1d73",
+      "bytes": 10809,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_evidence/evidence_G20_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G01_seed11.json",
+      "sha256": "2bb87abbef80776022f092473f22fbbf283f6998cf3df9bb8eb5d79ad139b12c",
+      "bytes": 929,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G01_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G02_seed11.json",
+      "sha256": "d9c2ddfc3d9fc203108b5131ae3eab21c8a60ce437d541783cd2ea7f81afdb59",
+      "bytes": 1154,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G02_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G03_seed11.json",
+      "sha256": "0b954176b498d16db062916d9aa3599d9dc8be1786b2aa45c5724a7e0dca018c",
+      "bytes": 1373,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G03_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G04_seed11.json",
+      "sha256": "bdbfb924ce1c18d217bbc2add0c13fa9bc804271bc417ec86e5de756aff12aa3",
+      "bytes": 1589,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G04_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G05_seed11.json",
+      "sha256": "ed486b5801f54098f5e734576152c60316b828799e4ca27c24a24844590c3f12",
+      "bytes": 1841,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G05_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G06_seed11.json",
+      "sha256": "d5c818ba6e9c1091803942caac09803a0916cfa59a7458e0fba6e39a2d584798",
+      "bytes": 928,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G06_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G07_seed11.json",
+      "sha256": "9b64e3f463f91656d3521822d1eb1e444dfe989ce530c8abdca2afafef9d0c56",
+      "bytes": 1161,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G07_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G08_seed11.json",
+      "sha256": "e15073e6d1d0e1266037ad678c29b4ee938a1a688ab079ac8bb76c9fbf63c3de",
+      "bytes": 1404,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G08_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G09_seed11.json",
+      "sha256": "7814587b58d6b15f9bdba40533521c1cbee799a637099b45394cc2739be61f2b",
+      "bytes": 1604,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G09_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G10_seed11.json",
+      "sha256": "061197238d520567691827248723d8a3bbd392c6b5623914a232ddb9ddaba0de",
+      "bytes": 1825,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G10_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G11_seed11.json",
+      "sha256": "3370e0081221c24e92b892fa4cbea387eeaaef7a337bf12ae3a7633d59431051",
+      "bytes": 957,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G11_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G12_seed11.json",
+      "sha256": "b2eebc75a6f758c38753e745ef16e3261dbc78c7778e868aafc3de8a14ff1642",
+      "bytes": 1180,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G12_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G13_seed11.json",
+      "sha256": "a681a8049fbd288abc46ad2f4bf82cf7902c60d5d6faca6bea7c72b224b29cf6",
+      "bytes": 1395,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G13_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G14_seed11.json",
+      "sha256": "a6a1260e761b87e56cfc2a352bdf3144cd3ff68075610c60df5f47dc09629a0f",
+      "bytes": 1611,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G14_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G15_seed11.json",
+      "sha256": "a96b6914b1aa234165cfe179d7ceabcea3272dec4ebdc7a5828f5d15e5959fd0",
+      "bytes": 1869,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G15_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G16_seed11.json",
+      "sha256": "0b451ed63ffab152f9f2999f5ddecb0c23c348ea2e3d437567a1f5270c26bbbe",
+      "bytes": 972,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G16_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G17_seed11.json",
+      "sha256": "d0e183a2cb3ddf095d25741d1b65f0167386971c63248eadd3104fe432c941d1",
+      "bytes": 1200,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G17_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G18_seed11.json",
+      "sha256": "a85c86caf6c091499bf3f09245305beb885a40155a1c85b3a2d991698c3d2be2",
+      "bytes": 1420,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G18_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G19_seed11.json",
+      "sha256": "bfe3202e321229641d33ef975e0e2542ca9eca1261d345a0957f39d09154d72d",
+      "bytes": 1624,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G19_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G20_seed11.json",
+      "sha256": "8231962426f1080b9e149e32402454839556519cc4bd6c126aaafa71a0860ca3",
+      "bytes": 1850,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/baseline_samples/baseline_G20_seed11.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/judge_config.json",
+      "sha256": "921e0aa722d5bfe73bf0c2e7e437c9ac47aecac67a17e31f96e20eda621afae2",
+      "bytes": 415,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/judge_config.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/judge_model_config_v1.json",
+      "sha256": "4d2ef4e2af2a82f32755849885695517136bd8b56d57d32a44782fefe80dae79",
+      "bytes": 352,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/judge_model_config_v1.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/judge_model_config_v2.json",
+      "sha256": "8667d8cb1428cea3b35ab669d60d4300c0c0271765b8e987ada27e6dd0b56bbf",
+      "bytes": 499,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/judge_model_config_v2.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/judge_model_config_v3.json",
+      "sha256": "eed158d72149b4da7dea3180afa87bd12015004f8ee3a76c1ff691955181d332",
+      "bytes": 566,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/judge_model_config_v3.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/judge_prompt_v1.json",
+      "sha256": "4e93e3b66dc03a4b46735ea95b0d1556846ec39381fbbe97a6f976fd17d61537",
+      "bytes": 5463,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/judge_prompt_v1.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/judge_rubric_v1.json",
+      "sha256": "e6eebae918add6016859bf316fc27d4e90f778d0b21efb4f55bdda51a2c9bec5",
+      "bytes": 2874,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/judge_rubric_v1.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/judge_sample_cases.json",
+      "sha256": "c21c271c99385e8dc11a0f2d9f31212889fb85f17ee64de6e1f03960188d435d",
+      "bytes": 3308,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/judge_sample_cases.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/reports/baseline_sample_audit.json",
+      "sha256": "08e876fdbba5e76fa093ac684b3ef4dc5c45c8d365ba284018a35557de2bde0c",
+      "bytes": 6530,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/reports/baseline_sample_audit.json",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/05_M5_Evaluation/llm_judge_evaluation/riyadh_m4_datasets_verified.zip",
+      "sha256": "faea93132ab8106246aee5d9c8d306a03ea2d755f38eb60ef71d2c24d4cbba17",
+      "bytes": 893344,
+      "source": "05_M5_Evaluation/llm_judge_evaluation/riyadh_m4_datasets_verified.zip",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/M5_Backup_Exports/Riyadh_Travel_Planner_M5_Results-20261106T092531Z-1-001.zip",
+      "sha256": "c1e16ae9dd2e32d0535bd177f315334f435549c7623a66e90d71b28ef29b44b2",
+      "bytes": 1119743,
+      "source": "M5_Backup_Exports/Riyadh_Travel_Planner_M5_Results-20261106T092531Z-1-001.zip",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/M5_Backup_Exports/baseline_v1_archive-20261106T092026Z-1-001.zip",
+      "sha256": "84825fee641fce2d4e75b9cae6d7574e77d35f7421b950d6bbb9eb1f0ba8aabe",
+      "bytes": 2859,
+      "source": "M5_Backup_Exports/baseline_v1_archive-20261106T092026Z-1-001.zip",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/M5_Backup_Exports/baseline_v2_standardized-20261106T092025Z-1-001.zip",
+      "sha256": "b5b57a56d3f69b0a757e2d974a887af826bd235a29a268c2161febb9c074c74d",
+      "bytes": 12984,
+      "source": "M5_Backup_Exports/baseline_v2_standardized-20261106T092025Z-1-001.zip",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/M5_Backup_Exports/llm_judge_evaluation-20261106T091746Z-1-001.zip",
+      "sha256": "e2d995ca7293d75e80546a1982f2b1cc0559313e929d96768ca52482a4879da4",
+      "bytes": 952864,
+      "source": "M5_Backup_Exports/llm_judge_evaluation-20261106T091746Z-1-001.zip",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "source/M5_PROGRESS_LOG.md",
+      "sha256": "de033a826db680652cfa0f86ab174a423080d5304d4974ea4a8337e63a82413b",
+      "bytes": 2294,
+      "source": "M5_PROGRESS_LOG.md",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "data/activities.csv",
+      "sha256": "df5abb1fbb5fe13e0e8f20776fc83f707f2d7bf5e610a36acedb06cffa76d01f",
+      "bytes": 128334,
+      "source": "nested dataset archive/data/activities.csv",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "data/restaurants.csv",
+      "sha256": "2f808d6007d026b3c11b38ea9c922560b97920f3da82020b3662b24313c63cbc",
+      "bytes": 3684493,
+      "source": "nested dataset archive/data/restaurants.csv",
+      "disposition": "imported unchanged"
+    },
+    {
+      "path": "data/hotels.csv",
+      "sha256": "910e7b6055b37fd76c0aec254e4e8f5cf9a6028735096a112f512f3c715ae878",
+      "bytes": 5324,
+      "source": "nested dataset archive/data/hotels.csv",
+      "disposition": "imported unchanged"
+    }
+  ],
+  "nestedArchives": [
+    {
+      "archive": "source/05_M5_Evaluation/llm_judge_evaluation/riyadh_m4_datasets_verified.zip",
+      "sha256": "faea93132ab8106246aee5d9c8d306a03ea2d755f38eb60ef71d2c24d4cbba17",
+      "members": [
+        "data/activities.csv",
+        "data/restaurants.csv",
+        "data/hotels.csv"
+      ]
+    },
+    {
+      "archive": "source/M5_Backup_Exports/Riyadh_Travel_Planner_M5_Results-20261106T092531Z-1-001.zip",
+      "sha256": "c1e16ae9dd2e32d0535bd177f315334f435549c7623a66e90d71b28ef29b44b2",
+      "members": [
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/judge_results/",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/treatment_samples/",
+        "Riyadh_Travel_Planner_M5_Results/baseline_v2_standardized/experiment_config_v2.json",
+        "Riyadh_Travel_Planner_M5_Results/baseline_v2_standardized/baseline_v2_implementation_reference.json",
+        "Riyadh_Travel_Planner_M5_Results/m5_json_parser_fix_documentation.json",
+        "Riyadh_Travel_Planner_M5_Results/baseline_v2_standardized/baseline_v2_official_summary.json",
+        "Riyadh_Travel_Planner_M5_Results/baseline_v2_standardized/baseline_results_v2.json",
+        "Riyadh_Travel_Planner_M5_Results/M5_Baseline_Results_Extraction.csv",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/judge_rubric_v1.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/judge_config.json",
+        "Riyadh_Travel_Planner_M5_Results/baseline_v2_standardized/baseline_v2_overall_metrics.csv",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_samples/baseline_G20_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/baseline_v2_standardized/golden_set_ground_truth_feasibility.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/judge_sample_cases.json",
+        "Riyadh_Travel_Planner_M5_Results/baseline_results.json",
+        "Riyadh_Travel_Planner_M5_Results/g15_response_diagnostic_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_samples/baseline_G08_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_samples/baseline_G18_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/judge_model_config_v2.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/reports/baseline_sample_audit.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_samples/baseline_G15_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/baseline_m5_audit_summary.json",
+        "Riyadh_Travel_Planner_M5_Results/baseline_recovery_log.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/judge_model_config_v3.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/judge_model_config_v1.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_samples/baseline_G06_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_samples/baseline_G14_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/g03_original_api_failures.json",
+        "Riyadh_Travel_Planner_M5_Results/Riyadh_Travel_Planner_M5_Evaluation.ipynb",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_samples/baseline_G19_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/baseline_v1_archive/baseline_results.json",
+        "Riyadh_Travel_Planner_M5_Results/baseline_v1_archive/baseline_m5_audit_summary.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/judge_prompt_v1.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/riyadh_m4_datasets_verified.zip",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_samples/baseline_G01_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/baseline_v1_archive/archive_manifest.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_samples/baseline_G11_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_samples/baseline_G10_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_samples/baseline_G04_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_samples/baseline_G02_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_evidence/evidence_G10_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_samples/baseline_G12_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_samples/baseline_G13_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_evidence/evidence_G19_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_evidence/evidence_G20_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_samples/baseline_G09_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/baseline_v2_standardized/golden_set_ground_truth_feasibility.csv",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_samples/baseline_G16_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_samples/baseline_G07_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_evidence/evidence_G09_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_evidence/evidence_G01_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_samples/baseline_G03_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_evidence/evidence_G16_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_evidence/evidence_G14_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_evidence/evidence_G18_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_samples/baseline_G17_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_evidence/evidence_G17_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_evidence/evidence_G08_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_evidence/evidence_G13_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_samples/baseline_G05_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_evidence/evidence_G12_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_evidence/evidence_G03_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_evidence/evidence_G04_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_evidence/evidence_G15_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_evidence/evidence_G06_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_evidence/evidence_G11_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_evidence/evidence_G05_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_evidence/evidence_G07_seed11.json",
+        "Riyadh_Travel_Planner_M5_Results/baseline_v2_standardized/baseline_v2_per_case_metrics.csv",
+        "Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/baseline_evidence/evidence_G02_seed11.json"
+      ]
+    },
+    {
+      "archive": "source/M5_Backup_Exports/baseline_v1_archive-20261106T092026Z-1-001.zip",
+      "sha256": "84825fee641fce2d4e75b9cae6d7574e77d35f7421b950d6bbb9eb1f0ba8aabe",
+      "members": [
+        "baseline_v1_archive/baseline_m5_audit_summary.json",
+        "baseline_v1_archive/archive_manifest.json",
+        "baseline_v1_archive/baseline_results.json"
+      ]
+    },
+    {
+      "archive": "source/M5_Backup_Exports/baseline_v2_standardized-20261106T092025Z-1-001.zip",
+      "sha256": "b5b57a56d3f69b0a757e2d974a887af826bd235a29a268c2161febb9c074c74d",
+      "members": [
+        "baseline_v2_standardized/baseline_v2_per_case_metrics.csv",
+        "baseline_v2_standardized/baseline_v2_implementation_reference.json",
+        "baseline_v2_standardized/baseline_v2_official_summary.json",
+        "baseline_v2_standardized/golden_set_ground_truth_feasibility.json",
+        "baseline_v2_standardized/golden_set_ground_truth_feasibility.csv",
+        "baseline_v2_standardized/baseline_v2_overall_metrics.csv",
+        "baseline_v2_standardized/baseline_results_v2.json",
+        "baseline_v2_standardized/experiment_config_v2.json"
+      ]
+    },
+    {
+      "archive": "source/M5_Backup_Exports/llm_judge_evaluation-20261106T091746Z-1-001.zip",
+      "sha256": "e2d995ca7293d75e80546a1982f2b1cc0559313e929d96768ca52482a4879da4",
+      "members": [
+        "llm_judge_evaluation/treatment_samples/",
+        "llm_judge_evaluation/judge_results/",
+        "llm_judge_evaluation/judge_prompt_v1.json",
+        "llm_judge_evaluation/baseline_evidence/evidence_G07_seed11.json",
+        "llm_judge_evaluation/judge_model_config_v1.json",
+        "llm_judge_evaluation/baseline_evidence/evidence_G19_seed11.json",
+        "llm_judge_evaluation/judge_config.json",
+        "llm_judge_evaluation/judge_sample_cases.json",
+        "llm_judge_evaluation/reports/baseline_sample_audit.json",
+        "llm_judge_evaluation/baseline_evidence/evidence_G01_seed11.json",
+        "llm_judge_evaluation/baseline_evidence/evidence_G10_seed11.json",
+        "llm_judge_evaluation/baseline_evidence/evidence_G08_seed11.json",
+        "llm_judge_evaluation/baseline_evidence/evidence_G15_seed11.json",
+        "llm_judge_evaluation/judge_model_config_v3.json",
+        "llm_judge_evaluation/baseline_samples/baseline_G18_seed11.json",
+        "llm_judge_evaluation/baseline_evidence/evidence_G09_seed11.json",
+        "llm_judge_evaluation/baseline_samples/baseline_G17_seed11.json",
+        "llm_judge_evaluation/baseline_samples/baseline_G16_seed11.json",
+        "llm_judge_evaluation/baseline_samples/baseline_G15_seed11.json",
+        "llm_judge_evaluation/baseline_samples/baseline_G07_seed11.json",
+        "llm_judge_evaluation/baseline_evidence/evidence_G05_seed11.json",
+        "llm_judge_evaluation/baseline_samples/baseline_G12_seed11.json",
+        "llm_judge_evaluation/baseline_samples/baseline_G05_seed11.json",
+        "llm_judge_evaluation/judge_model_config_v2.json",
+        "llm_judge_evaluation/baseline_samples/baseline_G08_seed11.json",
+        "llm_judge_evaluation/baseline_samples/baseline_G02_seed11.json",
+        "llm_judge_evaluation/baseline_evidence/evidence_G20_seed11.json",
+        "llm_judge_evaluation/baseline_evidence/evidence_G12_seed11.json",
+        "llm_judge_evaluation/baseline_samples/baseline_G10_seed11.json",
+        "llm_judge_evaluation/baseline_samples/baseline_G13_seed11.json",
+        "llm_judge_evaluation/judge_rubric_v1.json",
+        "llm_judge_evaluation/baseline_samples/baseline_G09_seed11.json",
+        "llm_judge_evaluation/baseline_samples/baseline_G06_seed11.json",
+        "llm_judge_evaluation/baseline_samples/baseline_G14_seed11.json",
+        "llm_judge_evaluation/baseline_evidence/evidence_G03_seed11.json",
+        "llm_judge_evaluation/baseline_samples/baseline_G11_seed11.json",
+        "llm_judge_evaluation/baseline_evidence/evidence_G04_seed11.json",
+        "llm_judge_evaluation/baseline_samples/baseline_G20_seed11.json",
+        "llm_judge_evaluation/baseline_evidence/evidence_G17_seed11.json",
+        "llm_judge_evaluation/baseline_evidence/evidence_G06_seed11.json",
+        "llm_judge_evaluation/baseline_evidence/evidence_G11_seed11.json",
+        "llm_judge_evaluation/baseline_evidence/evidence_G18_seed11.json",
+        "llm_judge_evaluation/baseline_samples/baseline_G04_seed11.json",
+        "llm_judge_evaluation/baseline_evidence/evidence_G16_seed11.json",
+        "llm_judge_evaluation/baseline_evidence/evidence_G02_seed11.json",
+        "llm_judge_evaluation/baseline_evidence/evidence_G13_seed11.json",
+        "llm_judge_evaluation/baseline_samples/baseline_G03_seed11.json",
+        "llm_judge_evaluation/baseline_samples/baseline_G19_seed11.json",
+        "llm_judge_evaluation/baseline_samples/baseline_G01_seed11.json",
+        "llm_judge_evaluation/baseline_evidence/evidence_G14_seed11.json",
+        "llm_judge_evaluation/riyadh_m4_datasets_verified.zip"
+      ]
+    },
+    {
+      "archive": "private_originals/nested/c1e16ae9dd2e32d0/Riyadh_Travel_Planner_M5_Results/llm_judge_evaluation/riyadh_m4_datasets_verified.zip",
+      "sha256": "faea93132ab8106246aee5d9c8d306a03ea2d755f38eb60ef71d2c24d4cbba17",
+      "members": [
+        "data/activities.csv",
+        "data/restaurants.csv",
+        "data/hotels.csv"
+      ]
+    },
+    {
+      "archive": "private_originals/nested/e2d995ca7293d75e/llm_judge_evaluation/riyadh_m4_datasets_verified.zip",
+      "sha256": "faea93132ab8106246aee5d9c8d306a03ea2d755f38eb60ef71d2c24d4cbba17",
+      "members": [
+        "data/activities.csv",
+        "data/restaurants.csv",
+        "data/hotels.csv"
+      ]
+    }
+  ]
+}

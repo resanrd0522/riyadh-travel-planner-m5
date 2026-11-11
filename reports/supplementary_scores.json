@@ -1,0 +1,490 @@
+[
+  {
+    "case_id": "G01",
+    "seed": 11,
+    "evidence_class": "later supplementary generation",
+    "sample_sha256": "2bb87abbef80776022f092473f22fbbf283f6998cf3df9bb8eb5d79ad139b12c",
+    "generated_at_utc": "2026-11-06T07:18:26.149842+00:00",
+    "scores": {
+      "scorer_version": "m5-offline-v3",
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "feasible": true,
+      "validation_errors": []
+    },
+    "RTC": 100.0,
+    "matches_historical_seed11_scores": {
+      "APM": true,
+      "RBM": true,
+      "HBM": true,
+      "IFR": true
+    },
+    "original_run_identity_verified": false
+  },
+  {
+    "case_id": "G02",
+    "seed": 11,
+    "evidence_class": "later supplementary generation",
+    "sample_sha256": "d9c2ddfc3d9fc203108b5131ae3eab21c8a60ce437d541783cd2ea7f81afdb59",
+    "generated_at_utc": "2026-11-06T07:18:56.151855+00:00",
+    "scores": {
+      "scorer_version": "m5-offline-v3",
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "feasible": true,
+      "validation_errors": []
+    },
+    "RTC": 100.0,
+    "matches_historical_seed11_scores": {
+      "APM": true,
+      "RBM": true,
+      "HBM": true,
+      "IFR": true
+    },
+    "original_run_identity_verified": false
+  },
+  {
+    "case_id": "G03",
+    "seed": 11,
+    "evidence_class": "later supplementary generation",
+    "sample_sha256": "0b954176b498d16db062916d9aa3599d9dc8be1786b2aa45c5724a7e0dca018c",
+    "generated_at_utc": "2026-11-06T07:18:58.964504+00:00",
+    "scores": {
+      "scorer_version": "m5-offline-v3",
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "feasible": true,
+      "validation_errors": []
+    },
+    "RTC": 100.0,
+    "matches_historical_seed11_scores": {
+      "APM": true,
+      "RBM": true,
+      "HBM": true,
+      "IFR": true
+    },
+    "original_run_identity_verified": false
+  },
+  {
+    "case_id": "G04",
+    "seed": 11,
+    "evidence_class": "later supplementary generation",
+    "sample_sha256": "bdbfb924ce1c18d217bbc2add0c13fa9bc804271bc417ec86e5de756aff12aa3",
+    "generated_at_utc": "2026-11-06T07:19:01.071264+00:00",
+    "scores": {
+      "scorer_version": "m5-offline-v3",
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "feasible": true,
+      "validation_errors": []
+    },
+    "RTC": 100.0,
+    "matches_historical_seed11_scores": {
+      "APM": true,
+      "RBM": true,
+      "HBM": true,
+      "IFR": true
+    },
+    "original_run_identity_verified": false
+  },
+  {
+    "case_id": "G05",
+    "seed": 11,
+    "evidence_class": "later supplementary generation",
+    "sample_sha256": "ed486b5801f54098f5e734576152c60316b828799e4ca27c24a24844590c3f12",
+    "generated_at_utc": "2026-11-06T07:19:03.172546+00:00",
+    "scores": {
+      "scorer_version": "m5-offline-v3",
+      "APM": 90.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 0.0,
+      "feasible": false,
+      "validation_errors": [
+        "Repeated activities found"
+      ]
+    },
+    "RTC": 100.0,
+    "matches_historical_seed11_scores": {
+      "APM": true,
+      "RBM": true,
+      "HBM": true,
+      "IFR": true
+    },
+    "original_run_identity_verified": false
+  },
+  {
+    "case_id": "G06",
+    "seed": 11,
+    "evidence_class": "later supplementary generation",
+    "sample_sha256": "d5c818ba6e9c1091803942caac09803a0916cfa59a7458e0fba6e39a2d584798",
+    "generated_at_utc": "2026-11-06T07:19:04.719641+00:00",
+    "scores": {
+      "scorer_version": "m5-offline-v3",
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "feasible": true,
+      "validation_errors": []
+    },
+    "RTC": 100.0,
+    "matches_historical_seed11_scores": {
+      "APM": true,
+      "RBM": true,
+      "HBM": true,
+      "IFR": true
+    },
+    "original_run_identity_verified": false
+  },
+  {
+    "case_id": "G07",
+    "seed": 11,
+    "evidence_class": "later supplementary generation",
+    "sample_sha256": "9b64e3f463f91656d3521822d1eb1e444dfe989ce530c8abdca2afafef9d0c56",
+    "generated_at_utc": "2026-11-06T07:19:06.352261+00:00",
+    "scores": {
+      "scorer_version": "m5-offline-v3",
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "feasible": true,
+      "validation_errors": []
+    },
+    "RTC": 100.0,
+    "matches_historical_seed11_scores": {
+      "APM": true,
+      "RBM": true,
+      "HBM": true,
+      "IFR": true
+    },
+    "original_run_identity_verified": false
+  },
+  {
+    "case_id": "G08",
+    "seed": 11,
+    "evidence_class": "later supplementary generation",
+    "sample_sha256": "e15073e6d1d0e1266037ad678c29b4ee938a1a688ab079ac8bb76c9fbf63c3de",
+    "generated_at_utc": "2026-11-06T07:19:08.366373+00:00",
+    "scores": {
+      "scorer_version": "m5-offline-v3",
+      "APM": 66.67,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 0.0,
+      "feasible": false,
+      "validation_errors": [
+        "Repeated activities found",
+        "Repeated activities found"
+      ]
+    },
+    "RTC": 100.0,
+    "matches_historical_seed11_scores": {
+      "APM": true,
+      "RBM": true,
+      "HBM": true,
+      "IFR": true
+    },
+    "original_run_identity_verified": false
+  },
+  {
+    "case_id": "G09",
+    "seed": 11,
+    "evidence_class": "later supplementary generation",
+    "sample_sha256": "7814587b58d6b15f9bdba40533521c1cbee799a637099b45394cc2739be61f2b",
+    "generated_at_utc": "2026-11-06T07:19:26.873085+00:00",
+    "scores": {
+      "scorer_version": "m5-offline-v3",
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "feasible": true,
+      "validation_errors": []
+    },
+    "RTC": 100.0,
+    "matches_historical_seed11_scores": {
+      "APM": true,
+      "RBM": true,
+      "HBM": true,
+      "IFR": true
+    },
+    "original_run_identity_verified": false
+  },
+  {
+    "case_id": "G10",
+    "seed": 11,
+    "evidence_class": "later supplementary generation",
+    "sample_sha256": "061197238d520567691827248723d8a3bbd392c6b5623914a232ddb9ddaba0de",
+    "generated_at_utc": "2026-11-06T07:19:29.146136+00:00",
+    "scores": {
+      "scorer_version": "m5-offline-v3",
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "feasible": true,
+      "validation_errors": []
+    },
+    "RTC": 100.0,
+    "matches_historical_seed11_scores": {
+      "APM": true,
+      "RBM": true,
+      "HBM": true,
+      "IFR": true
+    },
+    "original_run_identity_verified": false
+  },
+  {
+    "case_id": "G11",
+    "seed": 11,
+    "evidence_class": "later supplementary generation",
+    "sample_sha256": "3370e0081221c24e92b892fa4cbea387eeaaef7a337bf12ae3a7633d59431051",
+    "generated_at_utc": "2026-11-06T07:19:30.979178+00:00",
+    "scores": {
+      "scorer_version": "m5-offline-v3",
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "feasible": true,
+      "validation_errors": []
+    },
+    "RTC": 100.0,
+    "matches_historical_seed11_scores": {
+      "APM": true,
+      "RBM": true,
+      "HBM": true,
+      "IFR": true
+    },
+    "original_run_identity_verified": false
+  },
+  {
+    "case_id": "G12",
+    "seed": 11,
+    "evidence_class": "later supplementary generation",
+    "sample_sha256": "b2eebc75a6f758c38753e745ef16e3261dbc78c7778e868aafc3de8a14ff1642",
+    "generated_at_utc": "2026-11-06T07:19:32.889830+00:00",
+    "scores": {
+      "scorer_version": "m5-offline-v3",
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "feasible": true,
+      "validation_errors": []
+    },
+    "RTC": 100.0,
+    "matches_historical_seed11_scores": {
+      "APM": true,
+      "RBM": true,
+      "HBM": true,
+      "IFR": true
+    },
+    "original_run_identity_verified": false
+  },
+  {
+    "case_id": "G13",
+    "seed": 11,
+    "evidence_class": "later supplementary generation",
+    "sample_sha256": "a681a8049fbd288abc46ad2f4bf82cf7902c60d5d6faca6bea7c72b224b29cf6",
+    "generated_at_utc": "2026-11-06T07:19:34.468562+00:00",
+    "scores": {
+      "scorer_version": "m5-offline-v3",
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "feasible": true,
+      "validation_errors": []
+    },
+    "RTC": 100.0,
+    "matches_historical_seed11_scores": {
+      "APM": true,
+      "RBM": true,
+      "HBM": true,
+      "IFR": true
+    },
+    "original_run_identity_verified": false
+  },
+  {
+    "case_id": "G14",
+    "seed": 11,
+    "evidence_class": "later supplementary generation",
+    "sample_sha256": "a6a1260e761b87e56cfc2a352bdf3144cd3ff68075610c60df5f47dc09629a0f",
+    "generated_at_utc": "2026-11-06T07:19:36.375442+00:00",
+    "scores": {
+      "scorer_version": "m5-offline-v3",
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "feasible": true,
+      "validation_errors": []
+    },
+    "RTC": 100.0,
+    "matches_historical_seed11_scores": {
+      "APM": true,
+      "RBM": true,
+      "HBM": true,
+      "IFR": true
+    },
+    "original_run_identity_verified": false
+  },
+  {
+    "case_id": "G15",
+    "seed": 11,
+    "evidence_class": "later supplementary generation",
+    "sample_sha256": "a96b6914b1aa234165cfe179d7ceabcea3272dec4ebdc7a5828f5d15e5959fd0",
+    "generated_at_utc": "2026-11-06T07:19:38.944825+00:00",
+    "scores": {
+      "scorer_version": "m5-offline-v3",
+      "APM": 80.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 0.0,
+      "feasible": false,
+      "validation_errors": [
+        "Repeated activities found",
+        "Repeated activities found"
+      ]
+    },
+    "RTC": 100.0,
+    "matches_historical_seed11_scores": {
+      "APM": true,
+      "RBM": true,
+      "HBM": true,
+      "IFR": true
+    },
+    "original_run_identity_verified": false
+  },
+  {
+    "case_id": "G16",
+    "seed": 11,
+    "evidence_class": "later supplementary generation",
+    "sample_sha256": "0b451ed63ffab152f9f2999f5ddecb0c23c348ea2e3d437567a1f5270c26bbbe",
+    "generated_at_utc": "2026-11-06T07:21:15.113063+00:00",
+    "scores": {
+      "scorer_version": "m5-offline-v3",
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "feasible": true,
+      "validation_errors": []
+    },
+    "RTC": 100.0,
+    "matches_historical_seed11_scores": {
+      "APM": true,
+      "RBM": true,
+      "HBM": true,
+      "IFR": true
+    },
+    "original_run_identity_verified": false
+  },
+  {
+    "case_id": "G17",
+    "seed": 11,
+    "evidence_class": "later supplementary generation",
+    "sample_sha256": "d0e183a2cb3ddf095d25741d1b65f0167386971c63248eadd3104fe432c941d1",
+    "generated_at_utc": "2026-11-06T07:20:11.347293+00:00",
+    "scores": {
+      "scorer_version": "m5-offline-v3",
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "feasible": true,
+      "validation_errors": []
+    },
+    "RTC": 100.0,
+    "matches_historical_seed11_scores": {
+      "APM": true,
+      "RBM": true,
+      "HBM": true,
+      "IFR": true
+    },
+    "original_run_identity_verified": false
+  },
+  {
+    "case_id": "G18",
+    "seed": 11,
+    "evidence_class": "later supplementary generation",
+    "sample_sha256": "a85c86caf6c091499bf3f09245305beb885a40155a1c85b3a2d991698c3d2be2",
+    "generated_at_utc": "2026-11-06T07:20:28.609774+00:00",
+    "scores": {
+      "scorer_version": "m5-offline-v3",
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "feasible": true,
+      "validation_errors": []
+    },
+    "RTC": 100.0,
+    "matches_historical_seed11_scores": {
+      "APM": true,
+      "RBM": true,
+      "HBM": true,
+      "IFR": true
+    },
+    "original_run_identity_verified": false
+  },
+  {
+    "case_id": "G19",
+    "seed": 11,
+    "evidence_class": "later supplementary generation",
+    "sample_sha256": "bfe3202e321229641d33ef975e0e2542ca9eca1261d345a0957f39d09154d72d",
+    "generated_at_utc": "2026-11-06T07:20:31.246224+00:00",
+    "scores": {
+      "scorer_version": "m5-offline-v3",
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "feasible": true,
+      "validation_errors": []
+    },
+    "RTC": 100.0,
+    "matches_historical_seed11_scores": {
+      "APM": true,
+      "RBM": true,
+      "HBM": true,
+      "IFR": true
+    },
+    "original_run_identity_verified": false
+  },
+  {
+    "case_id": "G20",
+    "seed": 11,
+    "evidence_class": "later supplementary generation",
+    "sample_sha256": "8231962426f1080b9e149e32402454839556519cc4bd6c126aaafa71a0860ca3",
+    "generated_at_utc": "2026-11-06T07:20:34.154895+00:00",
+    "scores": {
+      "scorer_version": "m5-offline-v3",
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "feasible": true,
+      "validation_errors": []
+    },
+    "RTC": 100.0,
+    "matches_historical_seed11_scores": {
+      "APM": true,
+      "RBM": true,
+      "HBM": true,
+      "IFR": true
+    },
+    "original_run_identity_verified": false
+  }
+]

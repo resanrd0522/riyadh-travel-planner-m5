@@ -1,0 +1,2083 @@
+{
+  "status": "PASS_EVIDENCE_AUDIT",
+  "scope": "Independent saved-evidence checks and rescoring, not a model-quality pass or provider attestation",
+  "experiment_version": "baseline-v3-20261107",
+  "identity_sha256": "7b4902b8e4c817e1117d73bb0f0c3d25962e9e4c0b5bbe88bd237d241189cc15",
+  "source_files_matching": 13,
+  "datasets_matching": 3,
+  "expected_records": 60,
+  "verified_records": 60,
+  "missing_or_incomplete_pairs": [],
+  "generation_successes": 58,
+  "generation_failures": [
+    {
+      "case_id": "G07",
+      "seed": 11,
+      "APM": 0.0,
+      "RBM": 0.0,
+      "HBM": 0.0,
+      "IFR": 0.0,
+      "RTC": 100.0,
+      "generation_success": false,
+      "generation_error": {
+        "type": "ProviderFailure",
+        "provider_error_type": "ClientError",
+        "code": 429
+      },
+      "journal_verified": true,
+      "attempts": 3,
+      "http_requests": 5,
+      "http_statuses": [
+        429,
+        200,
+        429,
+        200,
+        429
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "e13b7d52b06b4bd3669159cbb66f527a50082ec132053390db12b7080a79aad6"
+    },
+    {
+      "case_id": "G07",
+      "seed": 22,
+      "APM": 0.0,
+      "RBM": 0.0,
+      "HBM": 0.0,
+      "IFR": 0.0,
+      "RTC": 100.0,
+      "generation_success": false,
+      "generation_error": {
+        "type": "ParseError",
+        "code": null
+      },
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "461202ebb1f2aa69ce1a9816085aebc6eb852d6ba1d17321bec9c55613c50a11"
+    }
+  ],
+  "structurally_valid_runs": 49,
+  "parsed_but_structurally_invalid_pairs": [
+    {
+      "case_id": "G05",
+      "seed": 11
+    },
+    {
+      "case_id": "G05",
+      "seed": 22
+    },
+    {
+      "case_id": "G05",
+      "seed": 33
+    },
+    {
+      "case_id": "G08",
+      "seed": 11
+    },
+    {
+      "case_id": "G08",
+      "seed": 22
+    },
+    {
+      "case_id": "G08",
+      "seed": 33
+    },
+    {
+      "case_id": "G15",
+      "seed": 11
+    },
+    {
+      "case_id": "G15",
+      "seed": 22
+    },
+    {
+      "case_id": "G15",
+      "seed": 33
+    }
+  ],
+  "provider_model_versions_observed": [
+    "gemini-3.5-flash-lite"
+  ],
+  "journals_verified": 60,
+  "saved_summary_verified": true,
+  "statistics": {
+    "APM": {
+      "mean": 93.50016666666667,
+      "across_runs": {
+        "n": 60,
+        "sample_sd": 19.440389852028947
+      },
+      "between_seed_means": {
+        "n": 3,
+        "sample_sd": 2.886751345948129,
+        "means": {
+          "11": 91.8335,
+          "22": 91.8335,
+          "33": 96.8335
+        }
+      },
+      "between_case_means": {
+        "n": 20,
+        "sample_sd": 16.55990191494951
+      },
+      "per_case": {
+        "G01": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G02": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G03": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G04": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G05": {
+          "mean": 90.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G06": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G07": {
+          "mean": 33.333333333333336,
+          "n": 3,
+          "sample_sd": 57.735026918962575
+        },
+        "G08": {
+          "mean": 66.67,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G09": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G10": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G11": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G12": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G13": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G14": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G15": {
+          "mean": 80.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G16": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G17": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G18": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G19": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G20": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        }
+      }
+    },
+    "RBM": {
+      "mean": 96.66666666666667,
+      "across_runs": {
+        "n": 60,
+        "sample_sd": 18.10203347193925
+      },
+      "between_seed_means": {
+        "n": 3,
+        "sample_sd": 2.8867513459481287,
+        "means": {
+          "11": 95.0,
+          "22": 95.0,
+          "33": 100.0
+        }
+      },
+      "between_case_means": {
+        "n": 20,
+        "sample_sd": 14.907119849998598
+      },
+      "per_case": {
+        "G01": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G02": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G03": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G04": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G05": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G06": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G07": {
+          "mean": 33.333333333333336,
+          "n": 3,
+          "sample_sd": 57.735026918962575
+        },
+        "G08": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G09": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G10": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G11": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G12": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G13": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G14": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G15": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G16": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G17": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G18": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G19": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G20": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        }
+      }
+    },
+    "HBM": {
+      "mean": 96.66666666666667,
+      "across_runs": {
+        "n": 60,
+        "sample_sd": 18.10203347193925
+      },
+      "between_seed_means": {
+        "n": 3,
+        "sample_sd": 2.8867513459481287,
+        "means": {
+          "11": 95.0,
+          "22": 95.0,
+          "33": 100.0
+        }
+      },
+      "between_case_means": {
+        "n": 20,
+        "sample_sd": 14.907119849998598
+      },
+      "per_case": {
+        "G01": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G02": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G03": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G04": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G05": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G06": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G07": {
+          "mean": 33.333333333333336,
+          "n": 3,
+          "sample_sd": 57.735026918962575
+        },
+        "G08": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G09": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G10": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G11": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G12": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G13": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G14": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G15": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G16": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G17": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G18": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G19": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G20": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        }
+      }
+    },
+    "IFR": {
+      "mean": 81.66666666666667,
+      "across_runs": {
+        "n": 60,
+        "sample_sd": 39.02049294994231
+      },
+      "between_seed_means": {
+        "n": 3,
+        "sample_sd": 2.8867513459481287,
+        "means": {
+          "11": 80.0,
+          "22": 80.0,
+          "33": 85.0
+        }
+      },
+      "between_case_means": {
+        "n": 20,
+        "sample_sd": 38.197700552328804
+      },
+      "per_case": {
+        "G01": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G02": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G03": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G04": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G05": {
+          "mean": 0.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G06": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G07": {
+          "mean": 33.333333333333336,
+          "n": 3,
+          "sample_sd": 57.735026918962575
+        },
+        "G08": {
+          "mean": 0.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G09": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G10": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G11": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G12": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G13": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G14": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G15": {
+          "mean": 0.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G16": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G17": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G18": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G19": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G20": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        }
+      }
+    },
+    "RTC": {
+      "mean": 100.0,
+      "across_runs": {
+        "n": 60,
+        "sample_sd": 0.0
+      },
+      "between_seed_means": {
+        "n": 3,
+        "sample_sd": 0.0,
+        "means": {
+          "11": 100.0,
+          "22": 100.0,
+          "33": 100.0
+        }
+      },
+      "between_case_means": {
+        "n": 20,
+        "sample_sd": 0.0
+      },
+      "per_case": {
+        "G01": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G02": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G03": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G04": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G05": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G06": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G07": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G08": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G09": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G10": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G11": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G12": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G13": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G14": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G15": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G16": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G17": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G18": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G19": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        },
+        "G20": {
+          "mean": 100.0,
+          "n": 3,
+          "sample_sd": 0.0
+        }
+      }
+    }
+  },
+  "per_run": [
+    {
+      "case_id": "G01",
+      "seed": 11,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "60223f108535b3a77d3c35c75f1fade22e5b83b1cf6928cb487ec514be6eaf0c"
+    },
+    {
+      "case_id": "G01",
+      "seed": 22,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "04b6b34802b88916426aacfe77e4551ddeb0ae9c45a5f5e6d535a7659dd5d15b"
+    },
+    {
+      "case_id": "G01",
+      "seed": 33,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "cbf2ee4a0dd891a129049d80183d857b74d21ba7e7cf0dc10c935039bce5a41f"
+    },
+    {
+      "case_id": "G02",
+      "seed": 11,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "7b1df684719022da3755ef06387aa732a8e90feef014a00e195d411c4eaab7da"
+    },
+    {
+      "case_id": "G02",
+      "seed": 22,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "54df205c3154e222f1a0a2003fd6bc9b55dfc425174410c37f028743ef0634e5"
+    },
+    {
+      "case_id": "G02",
+      "seed": 33,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "5199e06e8ce02f59957c9542b4934f4afc20a71f107414cd5fa2aa212d7bdc4b"
+    },
+    {
+      "case_id": "G03",
+      "seed": 11,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "53d509090e62081e13870814233ebba05440673588f7c98f95d667d0ef97a246"
+    },
+    {
+      "case_id": "G03",
+      "seed": 22,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "6a577b3a2fe17b844f5e4698c5443f506d52e7981a5f14afcd0239271a1b226e"
+    },
+    {
+      "case_id": "G03",
+      "seed": 33,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "b4a485a3838d6c9dd2455555ccea88b5a3c6d8174a5e4c638eca450449afa831"
+    },
+    {
+      "case_id": "G04",
+      "seed": 11,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "d9523be6acde53b0402255f532900c211c14de7e2b8a8169cc5788528a3f5b08"
+    },
+    {
+      "case_id": "G04",
+      "seed": 22,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "af1aa581ffe5857261a8a6881912dad262fc086c64cc5491f88b1627dce65280"
+    },
+    {
+      "case_id": "G04",
+      "seed": 33,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 3,
+      "http_requests": 5,
+      "http_statuses": [
+        200,
+        429,
+        429,
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "22cadb0a4241ff25356621dbb13baf09c77147824b981c884f1765c262e16fc9"
+    },
+    {
+      "case_id": "G05",
+      "seed": 11,
+      "APM": 90.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 0.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "32fd3f10750d2177b28205c83150690165f13d3bcbd93532d7075c140c1f9550"
+    },
+    {
+      "case_id": "G05",
+      "seed": 22,
+      "APM": 90.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 0.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "1cf268f9f894aba12ef1c8823fafce298b0145f5faa9f887a89f4c32bb02a9be"
+    },
+    {
+      "case_id": "G05",
+      "seed": 33,
+      "APM": 90.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 0.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "a6a014fd421f02c913f403d9c0989bda51a14642745d34bd00393a352b45ae10"
+    },
+    {
+      "case_id": "G06",
+      "seed": 11,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "ea830ae38dde41b2f9939c6400d3d4417c833d95c4690e259c5bbaae66135705"
+    },
+    {
+      "case_id": "G06",
+      "seed": 22,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "8965efdb9d23cadd9be355854c2d418fefd74e1de2a653f09a7bdfdb5d9ac075"
+    },
+    {
+      "case_id": "G06",
+      "seed": 33,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "c925bca4d251d2d62577817df59d12d5ffde23fd252cda98dba094846eb9bc05"
+    },
+    {
+      "case_id": "G07",
+      "seed": 11,
+      "APM": 0.0,
+      "RBM": 0.0,
+      "HBM": 0.0,
+      "IFR": 0.0,
+      "RTC": 100.0,
+      "generation_success": false,
+      "generation_error": {
+        "type": "ProviderFailure",
+        "provider_error_type": "ClientError",
+        "code": 429
+      },
+      "journal_verified": true,
+      "attempts": 3,
+      "http_requests": 5,
+      "http_statuses": [
+        429,
+        200,
+        429,
+        200,
+        429
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "e13b7d52b06b4bd3669159cbb66f527a50082ec132053390db12b7080a79aad6"
+    },
+    {
+      "case_id": "G07",
+      "seed": 22,
+      "APM": 0.0,
+      "RBM": 0.0,
+      "HBM": 0.0,
+      "IFR": 0.0,
+      "RTC": 100.0,
+      "generation_success": false,
+      "generation_error": {
+        "type": "ParseError",
+        "code": null
+      },
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "461202ebb1f2aa69ce1a9816085aebc6eb852d6ba1d17321bec9c55613c50a11"
+    },
+    {
+      "case_id": "G07",
+      "seed": 33,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "46604a3fa5e7a8171fc4b13ff79f642bec32dcaeb45ee9efdde9963640a0c6c4"
+    },
+    {
+      "case_id": "G08",
+      "seed": 11,
+      "APM": 66.67,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 0.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "98ea6aa6b2db032b4e37b0c7dd3af7c99ec512ba091a293ae2459f78154406cf"
+    },
+    {
+      "case_id": "G08",
+      "seed": 22,
+      "APM": 66.67,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 0.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "1c2d89fd742d14c741ac14e26c97b5445240d5c48fab6b84ad4e2cd3e1187bba"
+    },
+    {
+      "case_id": "G08",
+      "seed": 33,
+      "APM": 66.67,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 0.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "d8716f204fbf0b172cdb813e5a853d2d72f7e35c2f62476e93bf00a8ad849e2b"
+    },
+    {
+      "case_id": "G09",
+      "seed": 11,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "ba325cae681f429b91d9ca57b3110c0df7d05fb02d3801bd6819fbbf71864883"
+    },
+    {
+      "case_id": "G09",
+      "seed": 22,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 2,
+      "http_requests": 4,
+      "http_statuses": [
+        200,
+        503,
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "469c5b3be24eb9479200d44d1b2c2682395e03503a7b83801f4af52eb3839bc8"
+    },
+    {
+      "case_id": "G09",
+      "seed": 33,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "b4d28d392d78d0715c25d369990b17ef44b13522a1f5e869b1e628ac484a391b"
+    },
+    {
+      "case_id": "G10",
+      "seed": 11,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 2,
+      "http_requests": 3,
+      "http_statuses": [
+        503,
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "cc4fdb2fdbbc47cbb9ac506b5af27d8c64c4fcb0be8d87efc1ce7f7bd08090c5"
+    },
+    {
+      "case_id": "G10",
+      "seed": 22,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "c3f304e5407561c771b6a7a500a87b5f927307a234d21a93fde8da5efd697c34"
+    },
+    {
+      "case_id": "G10",
+      "seed": 33,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "708348b202fca19f2f4dc2a9865cfeb57b113f0211c717daf9d6c75df50d988d"
+    },
+    {
+      "case_id": "G11",
+      "seed": 11,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "f6967f4b8204cea6eb30108414aeabff53607ce1a0ebb373617533d06b3d427f"
+    },
+    {
+      "case_id": "G11",
+      "seed": 22,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 2,
+      "http_requests": 3,
+      "http_statuses": [
+        504,
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "2e7c431effa80d136feafe9102fbbd79a345815d1b357c3b207225aacb572656"
+    },
+    {
+      "case_id": "G11",
+      "seed": 33,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "b202fb4d2bf8a04387b975433f8f16919ebad22e8f668b7b7e5fbb0d49febe02"
+    },
+    {
+      "case_id": "G12",
+      "seed": 11,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "5c085d5687231bc907439f6af43edb5a956c6c5d4d385d082b6793293a20fc45"
+    },
+    {
+      "case_id": "G12",
+      "seed": 22,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "585556b0b7a6e72aa45e9ef469e36df3f8f977029c7580cc0581b274102a83c8"
+    },
+    {
+      "case_id": "G12",
+      "seed": 33,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "b3d1abd190ccab6c6b9f6e28a2d8d7853b93ca400da589fba8f8330e990421ad"
+    },
+    {
+      "case_id": "G13",
+      "seed": 11,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "88c3133c5542f5e544d3fda9deaaf903908688794006e5827f1aac0a9352df31"
+    },
+    {
+      "case_id": "G13",
+      "seed": 22,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "a53bf1c8a8e10ceac38e54aaae01680f0d0de2a5944d5fc1b32445734cd90bb2"
+    },
+    {
+      "case_id": "G13",
+      "seed": 33,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "b178caae74050dbc7ca96548cacbbfc0adebf687e4fbc4d236af10b4163bf888"
+    },
+    {
+      "case_id": "G14",
+      "seed": 11,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "d6275dac7968fa8241fd103ba35dcb319f192cf5ff10f13ad061b0bdcb3d35de"
+    },
+    {
+      "case_id": "G14",
+      "seed": 22,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "f0f7dbf82d03fbba3b622e2021fe1386d10602e8a2cf8628bac66613303e3f30"
+    },
+    {
+      "case_id": "G14",
+      "seed": 33,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "12924da7c4deae7027663f0bce9c47ae5aed34a34f940d4a8d8824101315129d"
+    },
+    {
+      "case_id": "G15",
+      "seed": 11,
+      "APM": 80.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 0.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "e87e32445468d2f83e5b4f3b3b08664dd24860ef60d0b9845659a80cabeaefdd"
+    },
+    {
+      "case_id": "G15",
+      "seed": 22,
+      "APM": 80.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 0.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "f97fef260b7b54ced849a2b681af1ccd02cfc3d7d2c0e15171391df509fa8881"
+    },
+    {
+      "case_id": "G15",
+      "seed": 33,
+      "APM": 80.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 0.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "5e03c1735e8d5e826cc4b50a1f39cc709180d8cf13854391d5afa02aefc8c298"
+    },
+    {
+      "case_id": "G16",
+      "seed": 11,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "28eb247ceee499c01952059d51c19c2395b87319240b766f9d3216e7045a0799"
+    },
+    {
+      "case_id": "G16",
+      "seed": 22,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "4f8c1fef49e422d5c53dc6a10638c0a77d450370e9defa35719c0844227a705b"
+    },
+    {
+      "case_id": "G16",
+      "seed": 33,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 3,
+      "http_requests": 4,
+      "http_statuses": [
+        503,
+        503,
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "83277bb3e2956a9844ade2beb4f04979874bf291556eee2bd157b015635fa46d"
+    },
+    {
+      "case_id": "G17",
+      "seed": 11,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "e0589b0c15d838d207b0600323da5ce07c3d10c3c6556563d0915fbf8200b8ac"
+    },
+    {
+      "case_id": "G17",
+      "seed": 22,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "f8b81ac7de1eb44e9b4b7e626ae905acc9a7868cfaec2c4fd759d6a8cec46b30"
+    },
+    {
+      "case_id": "G17",
+      "seed": 33,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "2d85d909c356a9afd42368cb571b173714326dcb3de29a7cd0ad55d70f42dea4"
+    },
+    {
+      "case_id": "G18",
+      "seed": 11,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "22512fd33fe25935d514cab3b37c87a78780d96a163e866af7df8cd9953f7ca9"
+    },
+    {
+      "case_id": "G18",
+      "seed": 22,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "75f26f78daeec6bbd96f4ca06db7b07d3f053c9d9ee4244f06c82f3bb6fbf83c"
+    },
+    {
+      "case_id": "G18",
+      "seed": 33,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "5b3c2441e3b4d3cb296d278e9bff058ba5de934fd9327b10cfbb9bc10f3f455f"
+    },
+    {
+      "case_id": "G19",
+      "seed": 11,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "0cfc6a558abdb8227ee24dc4078fec34bf0596c6e0ded18097aa28071f24ee57"
+    },
+    {
+      "case_id": "G19",
+      "seed": 22,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "789076ec5d756cb2b796165f1e59d19c3890b58953406815e55bbec9fa4f0df2"
+    },
+    {
+      "case_id": "G19",
+      "seed": 33,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "e8c23a0e45917513c8729bbd73155c3022da30dd85cbec52d4e1251ff8666683"
+    },
+    {
+      "case_id": "G20",
+      "seed": 11,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "bb0ad5328a2fd25d9585ca8afd36b5ed418082a38a217b4a173834eb2178e4c4"
+    },
+    {
+      "case_id": "G20",
+      "seed": 22,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "12f726c1975e8c26bc4874e69a9549a867af2115f0669f6286f45108de799e57"
+    },
+    {
+      "case_id": "G20",
+      "seed": 33,
+      "APM": 100.0,
+      "RBM": 100.0,
+      "HBM": 100.0,
+      "IFR": 100.0,
+      "RTC": 100.0,
+      "generation_success": true,
+      "generation_error": null,
+      "journal_verified": true,
+      "attempts": 1,
+      "http_requests": 2,
+      "http_statuses": [
+        200,
+        200
+      ],
+      "provider_model_versions": [
+        "gemini-3.5-flash-lite"
+      ],
+      "record_sha256": "7b5c04bb7164d0a7fe484de10b7f1f40c52bd73e5ddf2cae8b455b7b7d88eb73"
+    }
+  ],
+  "sd_definition": "sample SD (n-1): 60 run values, 20 case means and 3 seed means, separately",
+  "aggregation_method": "independent math.fsum/n mean and explicit squared-deviation/(n-1) sample SD",
+  "saved_summary_comparison_tolerance": 1e-09,
+  "limits": [
+    "No provider calls were made by this auditor.",
+    "Checksums show internal integrity, not cryptographic provider attestation.",
+    "Requested seed labels do not verify provider seed effectiveness.",
+    "No currency cost or billing token total is inferred.",
+    "New-cohort evidence does not recover original historical V2 outputs.",
+    "Missing separate journals, if any, are reported; checksummed record traces remain the RTC source.",
+    "Other archive folders, including a separate pilot, are not merged into cohort statistics."
+  ],
+  "archive": {
+    "filename": "baseline-v3-20261107.zip",
+    "sha256": "920d7dcc64f087f3217012a2c6608d081783eb17598c04a72cab46b643f92ecc",
+    "member_count": 310,
+    "selected_cohort_root": "baseline-v3-20261107"
+  }
+}

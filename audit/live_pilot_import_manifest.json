@@ -1,0 +1,39 @@
+{
+  "archive_name": "m5_run_evidence.zip",
+  "archive_sha256": "8b079582734fc6e09a6d0653a36d746524d67bbcbe3af917aab217af5be18d87",
+  "evidence_class": "one user-supplied live Colab pilot; separate from historical V2 and future full cohort",
+  "files": [
+    {
+      "path": "evidence/pilots/pilot-v3-20261107/manifest.json",
+      "bytes": 2739,
+      "sha256": "345f9ca2d8dbaa6953fc8c159f50a25853462a1faca714a4fb0e134ace98b9c8",
+      "disposition": "imported unchanged after credential-pattern scan"
+    },
+    {
+      "path": "evidence/pilots/pilot-v3-20261107/G01_seed11/request.json",
+      "bytes": 305,
+      "sha256": "2e9c9032cb4a5f9f4661b931639cb2647ae4f1ff13f4c52a77aa0b90a9615371",
+      "disposition": "imported unchanged after credential-pattern scan"
+    },
+    {
+      "path": "evidence/pilots/pilot-v3-20261107/G01_seed11/record.json",
+      "bytes": 115645,
+      "sha256": "c9ca1117cb941ef740a01131ef5d5ab91ddb76bb167cd76eff122430403ea501",
+      "disposition": "imported unchanged after credential-pattern scan"
+    },
+    {
+      "path": "evidence/pilots/pilot-v3-20261107/G01_seed11/record.sha256",
+      "bytes": 65,
+      "sha256": "c7a91d32d6f1a7ffeb31c1908c940e2fcc7387cfb69ac87ec4f24d7562a02587",
+      "disposition": "imported unchanged after credential-pattern scan"
+    },
+    {
+      "path": "evidence/pilots/pilot-v3-20261107/G01_seed11/events.jsonl",
+      "bytes": 39368,
+      "sha256": "1886b13420b13d46c1075bdb4babff795224fd820bf3ab220d7c5b351df0596c",
+      "disposition": "imported unchanged after credential-pattern scan"
+    }
+  ],
+  "redactions_applied_during_import": false,
+  "credential_pattern_matches": 0
+}

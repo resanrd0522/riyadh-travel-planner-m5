@@ -1,0 +1,661 @@
+{
+  "scorer_version": "m5-offline-v3",
+  "preserved_artifacts_verified": 78,
+  "dataset_canonical_hashes": {
+    "activities": "c4a6420190dc949b1b6daba7550bd71809ef9f03b3bd8582f134c56c3296ea70",
+    "restaurants": "2d53972ef3b35a6283a2c8ef491d66f1ce5f4c90badfc3d82e00e0aa92f67ec7",
+    "hotels": "ab28eaa83991c9ad13807ff518f18ce9c60e3478ad1d16bba2ab0ebf56371259"
+  },
+  "pandas_csv_float_precision": "round_trip",
+  "historical_v2": {
+    "records": 60,
+    "reported_generation_successes": 60,
+    "itineraries_present": 0,
+    "original_outputs_independently_rescored": false,
+    "statistics": {
+      "APM": {
+        "mean": 96.8335,
+        "across_runs": {
+          "n": 60,
+          "sample_sd": 8.468349212794102
+        },
+        "between_seed_means": {
+          "n": 3,
+          "sample_sd": 0.0,
+          "means": {
+            "11": 96.8335,
+            "22": 96.8335,
+            "33": 96.8335
+          }
+        },
+        "between_case_means": {
+          "n": 20,
+          "sample_sd": 8.615635893078656
+        },
+        "per_case": {
+          "G01": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G02": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G03": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G04": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G05": {
+            "mean": 90.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G06": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G07": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G08": {
+            "mean": 66.67,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G09": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G10": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G11": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G12": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G13": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G14": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G15": {
+            "mean": 80.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G16": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G17": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G18": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G19": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G20": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          }
+        }
+      },
+      "RBM": {
+        "mean": 100.0,
+        "across_runs": {
+          "n": 60,
+          "sample_sd": 0.0
+        },
+        "between_seed_means": {
+          "n": 3,
+          "sample_sd": 0.0,
+          "means": {
+            "11": 100.0,
+            "22": 100.0,
+            "33": 100.0
+          }
+        },
+        "between_case_means": {
+          "n": 20,
+          "sample_sd": 0.0
+        },
+        "per_case": {
+          "G01": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G02": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G03": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G04": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G05": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G06": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G07": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G08": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G09": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G10": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G11": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G12": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G13": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G14": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G15": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G16": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G17": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G18": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G19": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G20": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          }
+        }
+      },
+      "HBM": {
+        "mean": 100.0,
+        "across_runs": {
+          "n": 60,
+          "sample_sd": 0.0
+        },
+        "between_seed_means": {
+          "n": 3,
+          "sample_sd": 0.0,
+          "means": {
+            "11": 100.0,
+            "22": 100.0,
+            "33": 100.0
+          }
+        },
+        "between_case_means": {
+          "n": 20,
+          "sample_sd": 0.0
+        },
+        "per_case": {
+          "G01": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G02": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G03": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G04": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G05": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G06": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G07": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G08": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G09": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G10": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G11": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G12": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G13": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G14": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G15": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G16": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G17": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G18": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G19": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G20": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          }
+        }
+      },
+      "IFR": {
+        "mean": 85.0,
+        "across_runs": {
+          "n": 60,
+          "sample_sd": 36.00847357902755
+        },
+        "between_seed_means": {
+          "n": 3,
+          "sample_sd": 0.0,
+          "means": {
+            "11": 85.0,
+            "22": 85.0,
+            "33": 85.0
+          }
+        },
+        "between_case_means": {
+          "n": 20,
+          "sample_sd": 36.634754853252325
+        },
+        "per_case": {
+          "G01": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G02": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G03": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G04": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G05": {
+            "mean": 0.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G06": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G07": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G08": {
+            "mean": 0.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G09": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G10": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G11": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G12": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G13": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G14": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G15": {
+            "mean": 0.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G16": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G17": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G18": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G19": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G20": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          }
+        }
+      },
+      "RTC": {
+        "mean": 100.0,
+        "across_runs": {
+          "n": 60,
+          "sample_sd": 0.0
+        },
+        "between_seed_means": {
+          "n": 3,
+          "sample_sd": 0.0,
+          "means": {
+            "11": 100.0,
+            "22": 100.0,
+            "33": 100.0
+          }
+        },
+        "between_case_means": {
+          "n": 20,
+          "sample_sd": 0.0
+        },
+        "per_case": {
+          "G01": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G02": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G03": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G04": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G05": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G06": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G07": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G08": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G09": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G10": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G11": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G12": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G13": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G14": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G15": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G16": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G17": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G18": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G19": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          },
+          "G20": {
+            "mean": 100.0,
+            "n": 3,
+            "sample_sd": 0.0
+          }
+        }
+      }
+    }
+  },
+  "supplementary_samples": {
+    "count": 20,
+    "scores_verified": true,
+    "original_v2_generations_verified": false
+  },
+  "component_evaluation": {
+    "evaluation_type": "offline search-tool contract evaluation",
+    "scope": "Dataset membership, category/budget eligibility, default limits, uniqueness and repeatability; not model tool-selection quality.",
+    "case_count": 20,
+    "tool_invocations": 120,
+    "case_tool_contracts": 60
+  },
+  "trajectory_metric": {
+    "name": "required tool-type coverage (historical RTC)",
+    "basis": "saved tool-name sequences",
+    "full_arguments_and_results_available": false,
+    "tool_correctness_measured": false
+  },
+  "judge_evaluation": {
+    "saved_results": 0,
+    "status": "supplementary; not executed"
+  },
+  "runtime": {
+    "python": "3.13.5",
+    "executable_name": "python"
+  },
+  "paid_model_calls": 0,
+  "limits": [
+    "Original V2 itineraries and full tool traces remain missing.",
+    "Ground-truth acceptance rules await team human signoff.",
+    "No provider-side seed effectiveness or current model availability was tested.",
+    "Historical cost, token use and latency are unavailable and are not estimated."
+  ]
+}

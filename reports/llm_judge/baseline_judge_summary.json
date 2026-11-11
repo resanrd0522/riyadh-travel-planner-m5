@@ -1,0 +1,15 @@
+{
+  "experiment": "M5 Baseline",
+  "judge_model": "gemini-3.1-flash-lite",
+  "total_records": 60,
+  "judged": 58,
+  "generation_failed": 2,
+  "judge_errors": 0,
+  "average_overall_score": 4.522,
+  "average_by_criterion": {
+    "personalization": 4.103,
+    "budget_alignment": 5.0,
+    "itinerary_coherence": 4.466,
+    "itinerary_feasibility": 4.517
+  }
+}

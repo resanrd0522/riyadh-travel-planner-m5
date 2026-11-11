@@ -1,0 +1,1229 @@
+{
+  "G01_seed11": {
+    "run_id": "G01_seed11",
+    "case_id": "G01",
+    "seed": 11,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 5,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "Both selected activities are categorized under the user's interest of 'Shopping'.",
+      "budget_alignment": "The hotel and both restaurants are classified as 'Low' budget, matching the user's request.",
+      "itinerary_coherence": "The itinerary is well-organized for a one-day trip, containing exactly two activities and two restaurants as required.",
+      "itinerary_feasibility": "The itinerary meets all structural requirements, including a single hotel for the duration and the correct number of daily items."
+    },
+    "overall_score": 5.0,
+    "judged_at_utc": "2026-11-10T11:28:54.069888+00:00"
+  },
+  "G01_seed22": {
+    "run_id": "G01_seed22",
+    "case_id": "G01",
+    "seed": 22,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 5,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "Both selected activities are categorized under the user's interest of 'Shopping'.",
+      "budget_alignment": "The hotel and both restaurants are classified as 'Low' budget, matching the user's request.",
+      "itinerary_coherence": "The itinerary is well-organized for a one-day trip, containing exactly two activities and two restaurants as required.",
+      "itinerary_feasibility": "The itinerary meets all structural requirements, including a single hotel for the duration and the correct number of daily items."
+    },
+    "overall_score": 5.0,
+    "judged_at_utc": "2026-11-10T11:28:58.387881+00:00"
+  },
+  "G01_seed33": {
+    "run_id": "G01_seed33",
+    "case_id": "G01",
+    "seed": 33,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 5,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "Both selected activities are categorized under the user's interest of 'Shopping'.",
+      "budget_alignment": "The hotel and both restaurants are classified as 'Low' budget, matching the user's request.",
+      "itinerary_coherence": "The itinerary is well-organized for a one-day trip, containing exactly two activities and two restaurants as required.",
+      "itinerary_feasibility": "The itinerary meets all structural requirements, including a single hotel for the duration and the correct number of daily items."
+    },
+    "overall_score": 5.0,
+    "judged_at_utc": "2026-11-10T11:29:03.067054+00:00"
+  },
+  "G02_seed11": {
+    "run_id": "G02_seed11",
+    "case_id": "G02",
+    "seed": 11,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 5,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "All selected activities are categorized under the user's interest of 'Entertainment'.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'Medium' budget, matching the user's request.",
+      "itinerary_coherence": "The itinerary follows the required structure of two days, each with exactly two activities and two restaurants, using one hotel for the entire trip.",
+      "itinerary_feasibility": "The itinerary is feasible as it adheres to all structural requirements and uses valid dataset entities."
+    },
+    "overall_score": 5.0,
+    "judged_at_utc": "2026-11-10T11:29:11.302353+00:00"
+  },
+  "G02_seed22": {
+    "run_id": "G02_seed22",
+    "case_id": "G02",
+    "seed": 22,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 5,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "All selected activities are categorized under the user's interest of 'Entertainment'.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'Medium' budget, matching the user's request.",
+      "itinerary_coherence": "The itinerary follows the required structure of two days, each with exactly two activities and two restaurants, using one hotel for the entire trip.",
+      "itinerary_feasibility": "The itinerary is feasible as it adheres to all structural requirements and uses valid dataset entities."
+    },
+    "overall_score": 5.0,
+    "judged_at_utc": "2026-11-10T11:29:18.916952+00:00"
+  },
+  "G02_seed33": {
+    "run_id": "G02_seed33",
+    "case_id": "G02",
+    "seed": 33,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 5,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "All selected activities are categorized under the user's interest of 'Entertainment'.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'Medium' budget, matching the user's request.",
+      "itinerary_coherence": "The itinerary follows the required structure of two days, each with exactly two activities and two restaurants, using one hotel for the entire trip.",
+      "itinerary_feasibility": "The itinerary is feasible as it adheres to all structural requirements and uses valid dataset entities."
+    },
+    "overall_score": 5.0,
+    "judged_at_utc": "2026-11-10T11:29:27.250916+00:00"
+  },
+  "G03_seed11": {
+    "run_id": "G03_seed11",
+    "case_id": "G03",
+    "seed": 11,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 5,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "All selected activities are categorized under 'Culture & History', perfectly matching the user's stated interests.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'High' budget, aligning perfectly with the user's request.",
+      "itinerary_coherence": "The itinerary is well-organized, covering 3 days with exactly two activities and two restaurants per day, and no repeated activities.",
+      "itinerary_feasibility": "The itinerary follows all structural requirements, and there are no violations of the provided constraints."
+    },
+    "overall_score": 5.0,
+    "judged_at_utc": "2026-11-10T11:29:35.898421+00:00"
+  },
+  "G03_seed22": {
+    "run_id": "G03_seed22",
+    "case_id": "G03",
+    "seed": 22,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 5,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "All selected activities are categorized under 'Culture & History', perfectly matching the user's stated interests.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'High' budget, aligning perfectly with the user's high budget requirement.",
+      "itinerary_coherence": "The itinerary is well-structured with exactly two activities and two restaurants per day over the three-day duration, using a single hotel throughout.",
+      "itinerary_feasibility": "The itinerary follows all structural requirements and constraints; no violations were identified based on the provided evidence."
+    },
+    "overall_score": 5.0,
+    "judged_at_utc": "2026-11-10T11:29:40.743526+00:00"
+  },
+  "G03_seed33": {
+    "run_id": "G03_seed33",
+    "case_id": "G03",
+    "seed": 33,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 5,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "All selected activities are categorized under 'Culture & History', perfectly matching the user's stated interests.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'High' budget, aligning perfectly with the user's high budget requirement.",
+      "itinerary_coherence": "The itinerary follows the required structure of 3 days, with 2 activities and 2 restaurants per day, and uses a single hotel for the entire trip.",
+      "itinerary_feasibility": "The itinerary is well-structured and follows all constraints; no evidence suggests any feasibility violations."
+    },
+    "overall_score": 5.0,
+    "judged_at_utc": "2026-11-10T11:29:48.851255+00:00"
+  },
+  "G04_seed11": {
+    "run_id": "G04_seed11",
+    "case_id": "G04",
+    "seed": 11,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 5,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "All selected activities are categorized under the 'Nature & Outdoors' interest group as requested.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'Low' budget, perfectly matching the user's budget level.",
+      "itinerary_coherence": "The itinerary is well-organized, covering 4 days with exactly two activities and two restaurants per day, and uses a single hotel throughout.",
+      "itinerary_feasibility": "The itinerary follows all structural requirements and constraints provided in the instructions."
+    },
+    "overall_score": 5.0,
+    "judged_at_utc": "2026-11-10T11:29:56.136070+00:00"
+  },
+  "G04_seed22": {
+    "run_id": "G04_seed22",
+    "case_id": "G04",
+    "seed": 22,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 5,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "All selected activities are categorized under the 'Nature & Outdoors' interest group as requested.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'Low' budget, perfectly matching the user's budget level.",
+      "itinerary_coherence": "The itinerary is well-organized, covering 4 days with exactly two activities and two restaurants per day, and uses a single hotel throughout.",
+      "itinerary_feasibility": "The itinerary follows all structural requirements and constraints provided in the instructions."
+    },
+    "overall_score": 5.0
+  },
+  "G04_seed33": {
+    "run_id": "G04_seed33",
+    "case_id": "G04",
+    "seed": 33,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 5,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "All selected activities are categorized under the 'Nature & Outdoors' interest group requested by the user.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'Low' budget, perfectly matching the user's budget level.",
+      "itinerary_coherence": "The itinerary follows the required structure of 4 days, with exactly two activities and two restaurants per day, and uses a single hotel throughout.",
+      "itinerary_feasibility": "The itinerary is well-structured and adheres to all constraints; no violations were found based on the provided evidence."
+    },
+    "overall_score": 5.0,
+    "judged_at_utc": "2026-11-10T11:30:38.230212+00:00"
+  },
+  "G05_seed11": {
+    "run_id": "G05_seed11",
+    "case_id": "G05",
+    "seed": 11,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 5,
+      "budget_alignment": 5,
+      "itinerary_coherence": 2,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "All selected activities are categorized under the 'Religious' interest group, perfectly matching the user's request.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'Medium' budget, aligning perfectly with the user's budget level.",
+      "itinerary_coherence": "The itinerary violates the rule that activities must not repeat; 'ACT_00813' (Mosque) is scheduled on both Day 1 and Day 5.",
+      "itinerary_feasibility": "The itinerary follows the structural requirements of two activities and two restaurants per day, and all locations are valid within the provided dataset."
+    },
+    "overall_score": 4.25,
+    "judged_at_utc": "2026-11-10T11:30:51.807986+00:00"
+  },
+  "G05_seed22": {
+    "run_id": "G05_seed22",
+    "case_id": "G05",
+    "seed": 22,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 5,
+      "budget_alignment": 5,
+      "itinerary_coherence": 2,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "All selected activities are categorized under the 'Religious' interest group, perfectly matching the user's request.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'Medium' budget, aligning perfectly with the user's budget level.",
+      "itinerary_coherence": "The itinerary violates the rule that activities must not repeat; 'ACT_00813' (Mosque) is scheduled on both Day 1 and Day 5.",
+      "itinerary_feasibility": "The itinerary follows the structural requirements of two activities and two restaurants per day, and all locations are valid within the provided dataset."
+    },
+    "overall_score": 4.25,
+    "judged_at_utc": "2026-11-10T11:31:00.086716+00:00"
+  },
+  "G05_seed33": {
+    "run_id": "G05_seed33",
+    "case_id": "G05",
+    "seed": 33,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 5,
+      "budget_alignment": 5,
+      "itinerary_coherence": 2,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "All selected activities are categorized under the 'Religious' interest group, perfectly matching the user's request.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'Medium' budget, aligning perfectly with the user's budget level.",
+      "itinerary_coherence": "The itinerary violates the rule that activities must not repeat; 'ACT_00813' (Mosque) is scheduled on both Day 1 and Day 5.",
+      "itinerary_feasibility": "The itinerary follows the structural requirements of two activities and two restaurants per day, and all locations are valid within the provided dataset."
+    },
+    "overall_score": 4.25,
+    "judged_at_utc": "2026-11-10T11:31:10.787593+00:00"
+  },
+  "G06_seed11": {
+    "run_id": "G06_seed11",
+    "case_id": "G06",
+    "seed": 11,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 5,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "Both selected activities (Ksu Stadium and King Abdulaziz Racetrack) are categorized under the user's interest in Sports.",
+      "budget_alignment": "The hotel and both restaurants are classified as High budget, perfectly matching the user's requested budget level.",
+      "itinerary_coherence": "The itinerary follows the required structure of one day with exactly two activities and two restaurants.",
+      "itinerary_feasibility": "The itinerary is feasible as it adheres to all structural requirements and constraints provided in the prompt."
+    },
+    "overall_score": 5.0,
+    "judged_at_utc": "2026-11-10T11:31:47.993002+00:00"
+  },
+  "G06_seed22": {
+    "run_id": "G06_seed22",
+    "case_id": "G06",
+    "seed": 22,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 5,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "Both selected activities (Ksu Stadium and King Abdulaziz Racetrack) are categorized under the 'Sports' interest group, matching the user's request.",
+      "budget_alignment": "The hotel and both selected restaurants are classified as 'High' budget, perfectly aligning with the user's high budget preference.",
+      "itinerary_coherence": "The itinerary is well-organized for a one-day trip, containing exactly two activities and two restaurants as required.",
+      "itinerary_feasibility": "The itinerary follows all structural requirements, including using a single hotel and meeting the activity/restaurant count per day."
+    },
+    "overall_score": 5.0,
+    "judged_at_utc": "2026-11-10T11:31:52.254981+00:00"
+  },
+  "G06_seed33": {
+    "run_id": "G06_seed33",
+    "case_id": "G06",
+    "seed": 33,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 5,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "Both selected activities (Ksu Stadium and King Abdulaziz Racetrack) are categorized under the 'Sports' interest group, matching the user's request.",
+      "budget_alignment": "The hotel and both selected restaurants are classified as 'High' budget, perfectly aligning with the user's high budget preference.",
+      "itinerary_coherence": "The itinerary is well-organized for a one-day trip, containing exactly two activities and two restaurants as required.",
+      "itinerary_feasibility": "The itinerary follows all structural requirements, including using a single hotel and meeting the activity/restaurant count per day."
+    },
+    "overall_score": 5.0,
+    "judged_at_utc": "2026-11-10T11:31:56.430027+00:00"
+  },
+  "G07_seed11": {
+    "run_id": "G07_seed11",
+    "status": "generation_failed",
+    "overall_score": null
+  },
+  "G07_seed22": {
+    "run_id": "G07_seed22",
+    "status": "generation_failed",
+    "overall_score": null
+  },
+  "G07_seed33": {
+    "run_id": "G07_seed33",
+    "case_id": "G07",
+    "seed": 33,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 5,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "All selected activities are categorized under 'Landmarks & Sightseeing', perfectly matching the user's stated interest.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'Low' budget, aligning perfectly with the user's budget level.",
+      "itinerary_coherence": "The itinerary is well-organized, covering two days with exactly two activities and two restaurants per day, and uses a single hotel for the entire trip.",
+      "itinerary_feasibility": "The itinerary follows all structural requirements and constraints provided in the instructions."
+    },
+    "overall_score": 5.0,
+    "judged_at_utc": "2026-11-10T11:32:09.159036+00:00"
+  },
+  "G08_seed11": {
+    "run_id": "G08_seed11",
+    "case_id": "G08",
+    "seed": 11,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 4,
+      "budget_alignment": 5,
+      "itinerary_coherence": 2,
+      "itinerary_feasibility": 2
+    },
+    "reasons": {
+      "personalization": "All selected activities are categorized under the user's interest in Sports.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as Medium budget, matching the user's request.",
+      "itinerary_coherence": "The itinerary repeats the exact same activities on Day 3 as on Day 1, which is a structural inconsistency.",
+      "itinerary_feasibility": "The itinerary is not feasible due to the repetition of activities, which violates the requirement that activities must not repeat."
+    },
+    "overall_score": 3.25,
+    "judged_at_utc": "2026-11-10T11:32:21.489933+00:00"
+  },
+  "G08_seed22": {
+    "run_id": "G08_seed22",
+    "case_id": "G08",
+    "seed": 22,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 5,
+      "budget_alignment": 5,
+      "itinerary_coherence": 1,
+      "itinerary_feasibility": 1
+    },
+    "reasons": {
+      "personalization": "All selected activities are categorized under the 'Sports' interest group, which matches the user's request.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'Medium' budget, perfectly aligning with the user's budget level.",
+      "itinerary_coherence": "The itinerary violates the requirement that activities must not repeat; ACT_01114 and ACT_01120 are repeated on day 3.",
+      "itinerary_feasibility": "The itinerary is not feasible due to the repetition of activities, which contradicts the requirement that activities must not repeat across the itinerary."
+    },
+    "overall_score": 3.0,
+    "judged_at_utc": "2026-11-10T11:32:29.793285+00:00"
+  },
+  "G08_seed33": {
+    "run_id": "G08_seed33",
+    "case_id": "G08",
+    "seed": 33,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 3,
+      "budget_alignment": 5,
+      "itinerary_coherence": 2,
+      "itinerary_feasibility": 2
+    },
+    "reasons": {
+      "personalization": "The activities selected align with the user's interest in sports, but the itinerary repeats activities on the third day.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'Medium' budget, which perfectly matches the user's requested budget level.",
+      "itinerary_coherence": "The itinerary is poorly organized because it repeats activities (ACT_01114 and ACT_01120) on the third day that were already visited on previous days.",
+      "itinerary_feasibility": "The itinerary violates the requirement that activities must not repeat, as ACT_01114 and ACT_01120 are scheduled twice."
+    },
+    "overall_score": 3.0,
+    "judged_at_utc": "2026-11-10T11:32:35.245178+00:00"
+  },
+  "G09_seed11": {
+    "run_id": "G09_seed11",
+    "case_id": "G09",
+    "seed": 11,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 5,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "The itinerary exclusively features activities categorized under 'Shopping' and 'Entertainment', perfectly matching the user's stated interests.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'High' budget, which aligns perfectly with the user's requested budget level.",
+      "itinerary_coherence": "The itinerary is well-organized, spanning 4 days with exactly two activities and two restaurants per day, and uses a single hotel for the entire duration.",
+      "itinerary_feasibility": "The itinerary follows all structural requirements, and there are no violations of the provided constraints."
+    },
+    "overall_score": 5.0,
+    "judged_at_utc": "2026-11-10T11:32:59.013103+00:00"
+  },
+  "G09_seed22": {
+    "run_id": "G09_seed22",
+    "case_id": "G09",
+    "seed": 22,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 5,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "The itinerary exclusively features activities categorized under 'Shopping' and 'Entertainment', perfectly matching the user's stated interests.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'High' budget, which aligns perfectly with the user's requested budget level.",
+      "itinerary_coherence": "The itinerary is well-organized, spanning 4 days with exactly two activities and two restaurants per day, and uses a single hotel for the entire duration.",
+      "itinerary_feasibility": "The itinerary follows all structural requirements, and there are no violations of the provided constraints."
+    },
+    "overall_score": 5.0,
+    "judged_at_utc": "2026-11-10T11:33:03.777902+00:00"
+  },
+  "G09_seed33": {
+    "run_id": "G09_seed33",
+    "case_id": "G09",
+    "seed": 33,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 5,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "The itinerary exclusively features activities categorized under 'Shopping' and 'Entertainment', perfectly matching the user's stated interests.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'High' budget, which aligns perfectly with the user's requested budget level.",
+      "itinerary_coherence": "The itinerary is well-organized, spanning 4 days with exactly two activities and two restaurants per day, and uses a single hotel for the entire duration.",
+      "itinerary_feasibility": "The itinerary follows all structural requirements, and there are no violations of the provided constraints."
+    },
+    "overall_score": 5.0,
+    "judged_at_utc": "2026-11-10T11:33:07.739741+00:00"
+  },
+  "G10_seed11": {
+    "run_id": "G10_seed11",
+    "case_id": "G10",
+    "seed": 11,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 5,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 4
+    },
+    "reasons": {
+      "personalization": "The itinerary perfectly aligns with the user's interests in Culture & History and Religious sites, with every activity falling into one of these two categories.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'Low' budget, which perfectly matches the user's requested budget level.",
+      "itinerary_coherence": "The itinerary is well-structured, covering 5 days with exactly two activities and two restaurants per day, and maintains a consistent theme throughout.",
+      "itinerary_feasibility": "The itinerary is mostly feasible; however, the geographic spread of activities and restaurants across Riyadh is significant, which may present travel time challenges despite the logical daily structure."
+    },
+    "overall_score": 4.75,
+    "judged_at_utc": "2026-11-10T11:33:18.812754+00:00"
+  },
+  "G10_seed22": {
+    "run_id": "G10_seed22",
+    "case_id": "G10",
+    "seed": 22,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 5,
+      "budget_alignment": 5,
+      "itinerary_coherence": 4,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "The itinerary exclusively selects activities categorized under 'Culture & History' and 'Religious', perfectly matching the user's stated interests.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'Low' budget, which aligns perfectly with the user's requested budget level.",
+      "itinerary_coherence": "The itinerary is well-structured with a consistent daily format of two activities and two restaurants, though it relies heavily on mall-based prayer rooms for religious activities.",
+      "itinerary_feasibility": "The itinerary follows all structural requirements, including a single hotel for the duration and exactly two activities and two restaurants per day, with no repeated activities."
+    },
+    "overall_score": 4.75,
+    "judged_at_utc": "2026-11-10T11:33:22.865455+00:00"
+  },
+  "G10_seed33": {
+    "run_id": "G10_seed33",
+    "case_id": "G10",
+    "seed": 33,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 5,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 4
+    },
+    "reasons": {
+      "personalization": "All selected activities align perfectly with the user's interests in Culture & History and Religious sites.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'Low' budget, matching the user's requirement.",
+      "itinerary_coherence": "The itinerary is well-organized, covering 5 days with exactly two activities and two restaurants per day, and no repeated activities.",
+      "itinerary_feasibility": "The itinerary is mostly feasible; however, some days involve significant travel distances between activities and restaurants, which may be challenging to navigate within a single day."
+    },
+    "overall_score": 4.75,
+    "judged_at_utc": "2026-11-10T11:34:06.149514+00:00"
+  },
+  "G11_seed11": {
+    "run_id": "G11_seed11",
+    "case_id": "G11",
+    "seed": 11,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 5,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "The selected activities (AlFanar Park and Prince Faisal Bin Fahd Sports City) directly align with the user's interests in Nature & Outdoors and Sports.",
+      "budget_alignment": "The hotel and both restaurants are classified as 'Medium' budget, perfectly matching the user's requested budget level.",
+      "itinerary_coherence": "The itinerary is well-organized for a one-day trip, containing exactly two activities and two restaurants as required.",
+      "itinerary_feasibility": "The itinerary is feasible as it adheres to all structural requirements, including a single hotel for the duration and the correct number of daily activities and restaurants."
+    },
+    "overall_score": 5.0,
+    "judged_at_utc": "2026-11-10T11:34:36.835736+00:00"
+  },
+  "G11_seed22": {
+    "run_id": "G11_seed22",
+    "case_id": "G11",
+    "seed": 22,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 5,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "The selected activities (AlFanar Park and Prince Faisal Bin Fahd Sports City) perfectly match the user's interests in Nature & Outdoors and Sports.",
+      "budget_alignment": "The hotel and both restaurants are classified as Medium budget, which aligns perfectly with the user's requested budget level.",
+      "itinerary_coherence": "The itinerary follows the required structure of one day with exactly two activities and two restaurants, and uses a single hotel for the duration of the trip.",
+      "itinerary_feasibility": "The itinerary is feasible as it adheres to all structural requirements and constraints provided in the evidence."
+    },
+    "overall_score": 5.0,
+    "judged_at_utc": "2026-11-10T11:34:42.406070+00:00"
+  },
+  "G11_seed33": {
+    "run_id": "G11_seed33",
+    "case_id": "G11",
+    "seed": 33,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 5,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "The selected activities (AlFanar Park and Prince Faisal Bin Fahd Sports City) perfectly match the user's interests in Nature & Outdoors and Sports.",
+      "budget_alignment": "The hotel and both restaurants are classified as Medium budget, which aligns perfectly with the user's requested budget level.",
+      "itinerary_coherence": "The itinerary follows the required structure of one day with exactly two activities and two restaurants, and uses a single hotel for the duration of the trip.",
+      "itinerary_feasibility": "The itinerary is feasible as it adheres to all structural requirements and constraints provided in the evidence."
+    },
+    "overall_score": 5.0,
+    "judged_at_utc": "2026-11-10T11:34:46.253088+00:00"
+  },
+  "G12_seed11": {
+    "run_id": "G12_seed11",
+    "case_id": "G12",
+    "seed": 11,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 2,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "The itinerary focuses exclusively on shopping, completely ignoring the user's interest in 'Landmarks & Sightseeing'.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'High' budget, perfectly aligning with the user's request.",
+      "itinerary_coherence": "The itinerary follows the required structure of two activities and two restaurants per day, with no repeated activities.",
+      "itinerary_feasibility": "The itinerary is feasible as it adheres to all structural constraints and uses a single hotel for the duration of the trip."
+    },
+    "overall_score": 4.25,
+    "judged_at_utc": "2026-11-10T11:35:03.272683+00:00"
+  },
+  "G12_seed22": {
+    "run_id": "G12_seed22",
+    "case_id": "G12",
+    "seed": 22,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 2,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "The itinerary focuses exclusively on shopping, completely ignoring the user's interest in 'Landmarks & Sightseeing'.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'High' budget, perfectly aligning with the user's request.",
+      "itinerary_coherence": "The itinerary follows the required structure of two activities and two restaurants per day, with no repeated activities.",
+      "itinerary_feasibility": "The itinerary is feasible as it adheres to all structural constraints and uses a single hotel for the duration of the trip."
+    },
+    "overall_score": 4.25,
+    "judged_at_utc": "2026-11-10T11:35:09.257970+00:00"
+  },
+  "G12_seed33": {
+    "run_id": "G12_seed33",
+    "case_id": "G12",
+    "seed": 33,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 2,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "The itinerary focuses exclusively on shopping, completely ignoring the user's interest in 'Landmarks & Sightseeing'.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'High' budget, perfectly aligning with the user's request.",
+      "itinerary_coherence": "The itinerary follows the required structure of two activities and two restaurants per day, with no repeated activities.",
+      "itinerary_feasibility": "The itinerary is feasible as it adheres to all structural constraints and uses a single hotel for the duration of the trip."
+    },
+    "overall_score": 4.25,
+    "judged_at_utc": "2026-11-10T11:35:19.608784+00:00"
+  },
+  "G13_seed11": {
+    "run_id": "G13_seed11",
+    "case_id": "G13",
+    "seed": 11,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 2,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "The user requested 'Entertainment' and 'Culture & History'. The itinerary exclusively selects 'Entertainment' activities, ignoring the 'Culture & History' interest.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'Low' budget, which perfectly aligns with the user's requested budget level.",
+      "itinerary_coherence": "The itinerary is well-organized, covering 3 days with exactly two activities and two restaurants per day, and uses a single hotel throughout.",
+      "itinerary_feasibility": "The itinerary follows all structural requirements and constraints provided in the instructions."
+    },
+    "overall_score": 4.25,
+    "judged_at_utc": "2026-11-10T11:35:24.043873+00:00"
+  },
+  "G13_seed22": {
+    "run_id": "G13_seed22",
+    "case_id": "G13",
+    "seed": 22,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 2,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "The user requested 'Entertainment' and 'Culture & History'. The itinerary exclusively selects 'Entertainment' activities, ignoring the 'Culture & History' interest.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'Low' budget, which perfectly aligns with the user's requested budget level.",
+      "itinerary_coherence": "The itinerary is well-organized, covering 3 days with exactly two activities and two restaurants per day, and uses a single hotel throughout.",
+      "itinerary_feasibility": "The itinerary follows all structural requirements and constraints provided in the instructions."
+    },
+    "overall_score": 4.25,
+    "judged_at_utc": "2026-11-10T11:35:27.969884+00:00"
+  },
+  "G13_seed33": {
+    "run_id": "G13_seed33",
+    "case_id": "G13",
+    "seed": 33,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 2,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "The user requested 'Entertainment' and 'Culture & History'. The itinerary exclusively selects 'Entertainment' activities, ignoring the 'Culture & History' interest.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'Low' budget, which perfectly aligns with the user's requested budget level.",
+      "itinerary_coherence": "The itinerary is well-organized, covering 3 days with exactly two activities and two restaurants per day, and uses a single hotel throughout.",
+      "itinerary_feasibility": "The itinerary follows all structural requirements and constraints provided in the instructions."
+    },
+    "overall_score": 4.25,
+    "judged_at_utc": "2026-11-10T11:35:32.078952+00:00"
+  },
+  "G14_seed11": {
+    "run_id": "G14_seed11",
+    "case_id": "G14",
+    "seed": 11,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 5,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "The itinerary perfectly matches the user's interests in Religious and Nature & Outdoors activities, with each day featuring one of each.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'Medium' budget, aligning perfectly with the user's request.",
+      "itinerary_coherence": "The itinerary follows the required structure of 4 days, with exactly two activities and two restaurants per day, and no repeated activities.",
+      "itinerary_feasibility": "The itinerary is feasible as it adheres to all structural constraints, including using a single hotel for the entire duration."
+    },
+    "overall_score": 5.0,
+    "judged_at_utc": "2026-11-10T11:35:36.168647+00:00"
+  },
+  "G14_seed22": {
+    "run_id": "G14_seed22",
+    "case_id": "G14",
+    "seed": 22,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 5,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 3
+    },
+    "reasons": {
+      "personalization": "The itinerary perfectly balances the user's interests in Religious sites and Nature & Outdoors, with two activities per day dedicated to these categories.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'Medium' budget, perfectly aligning with the user's requested budget level.",
+      "itinerary_coherence": "The itinerary is well-structured, covering 4 days with exactly two activities and two restaurants per day, and no repeated activities.",
+      "itinerary_feasibility": "While the structure is correct, the geographic spread of activities (e.g., Al Thumama in the north and AlFanar Park in the south) suggests significant travel times between locations within a single day, raising feasibility concerns."
+    },
+    "overall_score": 4.5,
+    "judged_at_utc": "2026-11-10T11:36:02.654052+00:00"
+  },
+  "G14_seed33": {
+    "run_id": "G14_seed33",
+    "case_id": "G14",
+    "seed": 33,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 5,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "The itinerary perfectly aligns with the user's interests in Religious and Nature & Outdoors activities, with two of each per day.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as Medium budget, matching the user's requested budget level.",
+      "itinerary_coherence": "The itinerary is well-organized, covering 4 days with exactly two activities and two restaurants per day, and uses a single hotel throughout.",
+      "itinerary_feasibility": "The itinerary is feasible as it follows the structural requirements and includes distinct activities for each day without repetition."
+    },
+    "overall_score": 5.0,
+    "judged_at_utc": "2026-11-10T11:36:06.851904+00:00"
+  },
+  "G15_seed11": {
+    "run_id": "G15_seed11",
+    "case_id": "G15",
+    "seed": 11,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 4,
+      "budget_alignment": 5,
+      "itinerary_coherence": 2,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "The itinerary aligns well with the user's interests in Sports and Landmarks & Sightseeing, though it repeats activities on the final day.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'High' budget, perfectly matching the user's requested budget level.",
+      "itinerary_coherence": "The itinerary is disorganized because it repeats activities (ACT_01108 and ACT_01114) on the final day, violating the requirement that activities must not repeat.",
+      "itinerary_feasibility": "The itinerary is feasible as it adheres to the structure of two activities and two restaurants per day, and uses a single hotel for the entire trip."
+    },
+    "overall_score": 4.0,
+    "judged_at_utc": "2026-11-10T11:36:10.697491+00:00"
+  },
+  "G15_seed22": {
+    "run_id": "G15_seed22",
+    "case_id": "G15",
+    "seed": 22,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 4,
+      "budget_alignment": 5,
+      "itinerary_coherence": 2,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "The itinerary aligns well with the user's interests in Sports and Landmarks & Sightseeing, though it repeats activities on the final day.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'High' budget, perfectly matching the user's requested budget level.",
+      "itinerary_coherence": "The itinerary is disorganized because it repeats activities (ACT_01108 and ACT_01114) on the final day, violating the requirement that activities must not repeat.",
+      "itinerary_feasibility": "The itinerary is feasible as it adheres to the structure of two activities and two restaurants per day, and uses a single hotel for the entire trip."
+    },
+    "overall_score": 4.0,
+    "judged_at_utc": "2026-11-10T11:36:20.146883+00:00"
+  },
+  "G15_seed33": {
+    "run_id": "G15_seed33",
+    "case_id": "G15",
+    "seed": 33,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 4,
+      "budget_alignment": 5,
+      "itinerary_coherence": 2,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "The itinerary aligns well with the user's interests in Sports and Landmarks & Sightseeing, though it repeats activities on the final day.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'High' budget, perfectly matching the user's requested budget level.",
+      "itinerary_coherence": "The itinerary is disorganized because it repeats activities (ACT_01108 and ACT_01114) on the final day, violating the requirement that activities must not repeat.",
+      "itinerary_feasibility": "The itinerary is feasible as it adheres to the structure of two activities and two restaurants per day, and uses a single hotel for the entire trip."
+    },
+    "overall_score": 4.0,
+    "judged_at_utc": "2026-11-10T11:36:45.104266+00:00"
+  },
+  "G16_seed11": {
+    "run_id": "G16_seed11",
+    "case_id": "G16",
+    "seed": 11,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 2,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "The itinerary focuses exclusively on shopping, ignoring the user's interests in Culture & History and Sports.",
+      "budget_alignment": "The hotel and both restaurants are classified as 'Low' budget, perfectly aligning with the user's request.",
+      "itinerary_coherence": "The itinerary follows the required structure of one day with exactly two activities and two restaurants, and uses a single hotel.",
+      "itinerary_feasibility": "The itinerary is feasible as it adheres to all structural constraints and uses valid dataset entities."
+    },
+    "overall_score": 4.25,
+    "judged_at_utc": "2026-11-10T11:36:58.863891+00:00"
+  },
+  "G16_seed22": {
+    "run_id": "G16_seed22",
+    "case_id": "G16",
+    "seed": 22,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 2,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "The itinerary focuses exclusively on shopping, ignoring the user's interests in Culture & History and Sports.",
+      "budget_alignment": "The hotel and both restaurants are classified as 'Low' budget, perfectly aligning with the user's request.",
+      "itinerary_coherence": "The itinerary follows the required structure of one day with exactly two activities and two restaurants, and uses a single hotel.",
+      "itinerary_feasibility": "The itinerary is feasible as it adheres to all structural constraints and uses valid dataset entities."
+    },
+    "overall_score": 4.25,
+    "judged_at_utc": "2026-11-10T11:37:02.861553+00:00"
+  },
+  "G16_seed33": {
+    "run_id": "G16_seed33",
+    "case_id": "G16",
+    "seed": 33,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 2,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "The itinerary focuses exclusively on shopping, ignoring the user's interests in Culture & History and Sports.",
+      "budget_alignment": "The hotel and both restaurants are classified as 'Low' budget, perfectly aligning with the user's request.",
+      "itinerary_coherence": "The itinerary follows the required structure of one day with exactly two activities and two restaurants, and uses a single hotel.",
+      "itinerary_feasibility": "The itinerary is feasible as it adheres to all structural constraints and uses valid dataset entities."
+    },
+    "overall_score": 4.25,
+    "judged_at_utc": "2026-11-10T11:37:09.058384+00:00"
+  },
+  "G17_seed11": {
+    "run_id": "G17_seed11",
+    "case_id": "G17",
+    "seed": 11,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 3,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "The itinerary includes entertainment and religious activities, but lacks any nature and outdoors activities despite the user's interest.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'Medium' budget, perfectly aligning with the user's request.",
+      "itinerary_coherence": "The itinerary follows the required structure of two activities and two restaurants per day, with a single hotel used for the duration of the trip.",
+      "itinerary_feasibility": "The itinerary is well-structured and follows all constraints; no evidence suggests the locations are inaccessible or that the schedule is impossible."
+    },
+    "overall_score": 4.5,
+    "judged_at_utc": "2026-11-10T11:37:13.281266+00:00"
+  },
+  "G17_seed22": {
+    "run_id": "G17_seed22",
+    "case_id": "G17",
+    "seed": 22,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 3,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "The itinerary includes entertainment and religious activities, but lacks any nature or outdoors activities as requested by the user.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as Medium budget, perfectly aligning with the user's request.",
+      "itinerary_coherence": "The itinerary follows the required structure of two days, two activities per day, and two restaurants per day, with a single hotel used throughout.",
+      "itinerary_feasibility": "The itinerary is feasible as it adheres to all structural constraints and requirements provided in the prompt."
+    },
+    "overall_score": 4.5,
+    "judged_at_utc": "2026-11-10T11:37:17.231009+00:00"
+  },
+  "G17_seed33": {
+    "run_id": "G17_seed33",
+    "case_id": "G17",
+    "seed": 33,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 3,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "The itinerary includes entertainment and religious activities, but lacks any nature or outdoors activities as requested by the user.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as Medium budget, perfectly aligning with the user's request.",
+      "itinerary_coherence": "The itinerary follows the required structure of two days, two activities per day, and two restaurants per day, with a single hotel used throughout.",
+      "itinerary_feasibility": "The itinerary is feasible as it adheres to all structural constraints and requirements provided in the prompt."
+    },
+    "overall_score": 4.5,
+    "judged_at_utc": "2026-11-10T11:37:49.689173+00:00"
+  },
+  "G18_seed11": {
+    "run_id": "G18_seed11",
+    "case_id": "G18",
+    "seed": 11,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 3,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 3
+    },
+    "reasons": {
+      "personalization": "The itinerary includes shopping and entertainment activities, but lacks landmarks and sightseeing, which were requested by the user.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'High' budget, perfectly matching the user's requested budget level.",
+      "itinerary_coherence": "The itinerary is well-structured, covering 3 days with exactly two activities and two restaurants per day, and uses a single hotel throughout.",
+      "itinerary_feasibility": "While the structure is correct, the geographic spread of activities (e.g., ACT_00504 in the far east and ACT_00084 in the west on Day 1) suggests significant travel time concerns within Riyadh."
+    },
+    "overall_score": 4.0,
+    "judged_at_utc": "2026-11-10T11:37:56.552935+00:00"
+  },
+  "G18_seed22": {
+    "run_id": "G18_seed22",
+    "case_id": "G18",
+    "seed": 22,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 3,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 3
+    },
+    "reasons": {
+      "personalization": "The itinerary includes shopping and entertainment activities, but lacks landmarks and sightseeing, which were requested by the user.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'High' budget, perfectly matching the user's requested budget level.",
+      "itinerary_coherence": "The itinerary is well-structured, covering 3 days with exactly two activities and two restaurants per day, and uses a single hotel throughout.",
+      "itinerary_feasibility": "While the structure is correct, the geographic spread of activities (e.g., ACT_00504 in the far east and ACT_00084 in the west on Day 1) suggests significant travel time concerns within Riyadh."
+    },
+    "overall_score": 4.0,
+    "judged_at_utc": "2026-11-10T11:38:02.011352+00:00"
+  },
+  "G18_seed33": {
+    "run_id": "G18_seed33",
+    "case_id": "G18",
+    "seed": 33,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 3,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 3
+    },
+    "reasons": {
+      "personalization": "The itinerary includes shopping and entertainment activities, but lacks landmarks and sightseeing, which were requested by the user.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'High' budget, perfectly matching the user's requested budget level.",
+      "itinerary_coherence": "The itinerary is well-structured, covering 3 days with exactly two activities and two restaurants per day, and uses a single hotel throughout.",
+      "itinerary_feasibility": "While the structure is correct, the geographic spread of activities (e.g., ACT_00504 in the far east and ACT_00084 in the west on Day 1) suggests significant travel time concerns within Riyadh."
+    },
+    "overall_score": 4.0,
+    "judged_at_utc": "2026-11-10T11:38:06.340052+00:00"
+  },
+  "G19_seed11": {
+    "run_id": "G19_seed11",
+    "case_id": "G19",
+    "seed": 11,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 5,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "The itinerary perfectly aligns with the user's interests in Culture & History, Religious sites, and Sports.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'Low' budget, matching the user's request.",
+      "itinerary_coherence": "The itinerary is well-organized, covering 4 days with exactly two activities and two restaurants per day, and uses a single hotel throughout.",
+      "itinerary_feasibility": "The itinerary is feasible as it follows all structural requirements and uses valid, distinct activities for each day."
+    },
+    "overall_score": 5.0,
+    "judged_at_utc": "2026-11-10T11:38:10.670379+00:00"
+  },
+  "G19_seed22": {
+    "run_id": "G19_seed22",
+    "case_id": "G19",
+    "seed": 22,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 5,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "The itinerary includes activities across all three requested interest categories: Culture & History, Religious, and Sports.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'Low' budget, perfectly aligning with the user's budget level.",
+      "itinerary_coherence": "The itinerary is well-organized, covering 4 days with exactly two activities and two restaurants per day, with no repeated activities.",
+      "itinerary_feasibility": "The itinerary follows all structural requirements, and there are no violations of the provided constraints."
+    },
+    "overall_score": 5.0,
+    "judged_at_utc": "2026-11-10T11:38:14.567840+00:00"
+  },
+  "G19_seed33": {
+    "run_id": "G19_seed33",
+    "case_id": "G19",
+    "seed": 33,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 4,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 5
+    },
+    "reasons": {
+      "personalization": "The itinerary includes a strong mix of Culture & History and Sports activities, aligning well with the user's interests. Religious interests were not explicitly addressed in the activity selection.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'Low' budget, perfectly matching the user's requested budget level.",
+      "itinerary_coherence": "The itinerary is well-organized, covering 4 days with exactly two activities and two restaurants per day, and uses a single hotel for the entire duration.",
+      "itinerary_feasibility": "The itinerary is feasible as it follows the structural requirements and uses valid locations from the dataset."
+    },
+    "overall_score": 4.75,
+    "judged_at_utc": "2026-11-10T11:38:38.806407+00:00"
+  },
+  "G20_seed11": {
+    "run_id": "G20_seed11",
+    "case_id": "G20",
+    "seed": 11,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 3,
+      "budget_alignment": 5,
+      "itinerary_coherence": 5,
+      "itinerary_feasibility": 3
+    },
+    "reasons": {
+      "personalization": "The itinerary includes many shopping and entertainment activities, but completely lacks any activities related to the user's interest in 'Nature & Outdoors'.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'Medium' budget, which perfectly aligns with the user's requested budget level.",
+      "itinerary_coherence": "The itinerary is well-structured, following the required format of two activities and two restaurants per day for five days, with no repeated activities.",
+      "itinerary_feasibility": "While the structure is correct, the geographic distribution of activities is highly scattered across Riyadh, which would result in significant travel times between locations each day."
+    },
+    "overall_score": 4.0,
+    "judged_at_utc": "2026-11-10T11:38:44.539827+00:00"
+  },
+  "G20_seed22": {
+    "run_id": "G20_seed22",
+    "case_id": "G20",
+    "seed": 22,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 3,
+      "budget_alignment": 5,
+      "itinerary_coherence": 4,
+      "itinerary_feasibility": 2
+    },
+    "reasons": {
+      "personalization": "The itinerary includes shopping and entertainment activities, but completely ignores the 'Nature & Outdoors' interest specified by the user.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'Medium' budget, perfectly aligning with the user's request.",
+      "itinerary_coherence": "The itinerary is well-structured with two activities and two restaurants per day, following the required format consistently.",
+      "itinerary_feasibility": "The itinerary shows significant geographic dispersion. For example, Day 3 activities are located in vastly different areas (south vs. north Riyadh), making travel between them highly inefficient."
+    },
+    "overall_score": 3.5,
+    "judged_at_utc": "2026-11-10T11:38:59.484431+00:00"
+  },
+  "G20_seed33": {
+    "run_id": "G20_seed33",
+    "case_id": "G20",
+    "seed": 33,
+    "status": "judged",
+    "judge_model": "gemini-3.1-flash-lite",
+    "scores": {
+      "personalization": 3,
+      "budget_alignment": 5,
+      "itinerary_coherence": 4,
+      "itinerary_feasibility": 2
+    },
+    "reasons": {
+      "personalization": "The itinerary includes shopping and entertainment activities, but completely ignores the 'Nature & Outdoors' interest specified by the user.",
+      "budget_alignment": "The hotel and all selected restaurants are classified as 'Medium' budget, perfectly aligning with the user's request.",
+      "itinerary_coherence": "The itinerary is well-structured with two activities and two restaurants per day, following the required format consistently.",
+      "itinerary_feasibility": "The itinerary shows significant geographic dispersion. For example, Day 3 activities are located in vastly different areas (south vs. north Riyadh), making travel between them highly inefficient."
+    },
+    "overall_score": 3.5,
+    "judged_at_utc": "2026-11-10T11:39:03.622639+00:00"
+  }
+}
