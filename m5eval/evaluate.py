@@ -28,12 +28,32 @@ def sha256(path):
 
 
 def verify_import():
-    manifest = read_json(ROOT / "audit/import_manifest.json")
-    for entry in manifest["files"]:
-        path = ROOT / entry["path"]
-        if not path.is_file() or sha256(path) != entry["sha256"]:
-            raise ValueError(f"Preserved artifact changed: {entry['path']}")
-    return len(manifest["files"])
+    manifest = read_json(ROOT / "audit" / "import_manifest.json")
+
+    required = {
+        "data/activities.csv",
+        "data/restaurants.csv",
+        "data/hotels.csv",
+    }
+
+    entries = {
+        entry["path"]: entry
+        for entry in manifest["files"]
+        if entry["path"] in required
+    }
+
+    if set(entries) != required:
+        raise ValueError("Dataset manifest is incomplete")
+
+    for name in sorted(required):
+        path = ROOT / name
+        if not path.is_file():
+            raise ValueError(f"Required dataset missing: {name}")
+
+        if sha256(path) != entries[name]["sha256"]:
+            raise ValueError(f"Dataset checksum mismatch: {name}")
+
+    return len(entries)
 
 
 def golden_contract(cases, datasets):
