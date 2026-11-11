@@ -29,7 +29,7 @@ Use **Python 3.11 or 3.12**. First place the three original M4 datasets in `data
 
 ```bash
 python -m pip install -r requirements.txt
-python scripts/run_checks.py
+python scripts/verify_full_cohort.py
 ```
 
 This verifies the saved 60-run evidence. **No Gemini API key is needed.**
