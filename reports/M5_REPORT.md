@@ -18,8 +18,7 @@ We report five measures: Activity Preference Match (APM), Restaurant Budget Matc
 
 We used the same M4 datasets for all M5 runs. The fixed datasets contain 1,125 activities, 19,345 restaurants and 55 hotels. File checksums match the supplied CSVs and the M4 repository. Reading the CSVs with pandas' round-trip float option also reproduces the saved DataFrame checksums. The M4 files were not changed.
 
-The twenty cases cover trips of one to five days, three budget levels, and single or mixed interests. Each case can have several correct answers. Ground truth therefore consists of the M2 requirements and the eligible places in the datasets. `reports/golden_contract.json` lists the required recommendations, eligible places and maximum possible preference score for each case. We adopted these acceptance rules for all twenty cases, including G05, G08 and G15. The approval record is in `docs/M5_DECISIONS.md`.
-
+The twenty cases cover trips of one to five days, three budget levels, and single or mixed interests. Each case can have several correct answers. Ground truth therefore consists of the M2 requirements and the eligible places in the datasets. `reports/golden_contract.json` lists the required recommendations, eligible places and maximum possible preference score for each case. We adopted these acceptance rules for all twenty cases, including G05, G08 and G15. The project team reviewed and approved the ground-truth acceptance criteria for all 20 golden cases, as recorded in `reports/golden_contract.json`.
 | Case | Matching unique activities | Required slots | Maximum possible APM |
 |---|---:|---:|---:|
 | G05 | 9 | 10 | 90% |
@@ -106,7 +105,7 @@ Mean recorded adapter time was 5,386.64 ms per run, with a range of 1,275.29–3
 
 ## Historical evidence and qualitative material
 
-The original archive contains 75 files, all preserved under `source/`, plus three unchanged CSVs under `data/`. Historical V2 has sixty score records with matching saved inputs, but its original full itineraries and argument/result traces were not recovered from available backups, notebook outputs or Desktop copies. Its score arithmetic can be checked; the original outputs cannot be independently rescored.
+The original project archive contained 75 source files and three unchanged CSV datasets. These materials are retained in the private project archive but are not redistributed in the GitHub review package. The repository preserves the selected evaluation code, reports, and saved evidence. Historical V2 has sixty score records with matching saved inputs, but its original full itineraries and argument/result traces were not recovered from available backups, notebook outputs or Desktop copies. Its score arithmetic can be checked; the original outputs cannot be independently rescored.
 
 | Historical V2 metric | Recorded mean (%) | Across-run sample SD (n=60) | Between-seed-mean SD (n=3) |
 |---|---:|---:|---:|
