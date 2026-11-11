@@ -1,15 +1,46 @@
-# Public release review
+# Public Release Notes
 
-This package is a **public-review candidate**, not a certification that all third-party redistribution permissions are cleared.
+This document describes the contents and limitations of the public version of the Riyadh Travel Planner M5 Evaluation repository.
 
-Excluded intentionally:
-- `data/*.csv`: dataset redistribution rights not established; exact originals required locally to verify the 60 saved runs.
-- `reference/`: instructor/course PDFs and proposal.
-- `source/`: historical notebooks, archives and working copies.
-- Private-to-public instructions and internal handoff/checklist documents.
+## Included Materials
 
-Included: evaluation code, tests, scripts, Colab notebook, methodological documentation, results, and saved experiment evidence. **Review raw evidence and metadata for sensitive information before making the repository public.**
+The repository includes:
 
-The reported results are historical and unchanged; tests cannot be fully reproduced from this package alone without the original CSVs. Do not claim the public repository is self-contained. Confirm the original data licensing/provenance before deciding whether to publish the CSVs.
+- Evaluation and scoring code.
+- Automated tests and verification scripts.
+- Google Colab notebooks.
+- Evaluation methodology and documentation.
+- Baseline V3 results and saved experiment evidence.
 
-No Git history is included. If a repository already has commits, review its entire history for secrets. Never upload API keys.
+## Excluded Materials
+
+The following materials are intentionally excluded:
+
+- `data/*.csv`: Original M4 datasets. Redistribution permissions have not been established, and the original files must be supplied locally for full evidence verification.
+- `reference/`: Instructor materials, course documents, and project proposals.
+- `source/`: Historical notebooks, archives, and working copies.
+- Internal handoff documents and private working notes.
+
+## Reproducibility
+
+The repository provides the evaluation code, automated tests, archived evidence, and verification instructions.
+
+However, full verification requires the original M4 datasets and the historical source versions associated with Baseline V3.
+
+The repository is therefore not fully self-contained.
+
+The cleaned verification notebook documents the independently tested offline verification workflow.
+
+## Data and Privacy
+
+The repository does not intentionally redistribute the original M4 datasets or private course materials.
+
+Before public release, repository files and Git history should be reviewed for credentials, sensitive information, and third-party content that may require redistribution permission.
+
+API keys and other credentials must never be committed.
+
+## Evaluation Scope
+
+The published results represent the preserved M5 single-agent baseline evaluation.
+
+The offline verification confirms the integrity of archived evidence and scoring reproducibility. It does not represent a new Gemini generation run or a completed evaluation of the three-agent treatment.
