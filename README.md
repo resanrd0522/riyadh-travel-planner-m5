@@ -8,7 +8,7 @@ This project evaluates a **single-agent travel planner for Riyadh**. The planner
 - **3 requested seeds** per request: 11, 22, and 33 (**60 runs** total).
 - The same activity, restaurant, and hotel datasets used in M4 (not redistributed in this public-review package).
 - Both the final travel plans and the search tools used to create them.
-- - The 20 golden cases and their acceptance criteria were reviewed and approved by the project team. See reports/golden_contract.json.
+- The 20 golden cases and their acceptance criteria were reviewed and approved by the project team. See reports/golden_contract.json.
 
 ## M5 results
 
