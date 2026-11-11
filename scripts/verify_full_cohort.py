@@ -351,7 +351,7 @@ def verify_directory(directory):
     manifest = read_json(contained_file(directory, "manifest.json"))
     identity, identity_hash = manifest["identity"], manifest["identity_sha256"]
     require(fingerprint(identity) == identity_hash, "Manifest identity checksum differs")
-    reference_path = ROOT / "source/05_M5_Evaluation/baseline_v2_standardized/baseline_v2_implementation_reference.json"
+    reference_path = ROOT / "reference/golden_cases_m5.json"
     reference = read_json(reference_path)
     cases = reference["golden_set"]
     require(len(cases) == 20 and len({c["case_id"] for c in cases}) == 20, "Frozen golden cases are not 20 unique IDs")
