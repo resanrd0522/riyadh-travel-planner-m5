@@ -21,7 +21,7 @@
       "IFR_requires_interest_match": false
     },
     "ground_truth_basis": "M2 constraints and frozen dataset labels; no single reference itinerary.",
-    "human_ground_truth_signoff": "pending team review"
+    "human_ground_truth_signoff": "approved"
   },
   {
     "case_id": "G02",
@@ -45,7 +45,7 @@
       "IFR_requires_interest_match": false
     },
     "ground_truth_basis": "M2 constraints and frozen dataset labels; no single reference itinerary.",
-    "human_ground_truth_signoff": "pending team review"
+    "human_ground_truth_signoff": ""
   },
   {
     "case_id": "G03",
@@ -69,7 +69,7 @@
       "IFR_requires_interest_match": false
     },
     "ground_truth_basis": "M2 constraints and frozen dataset labels; no single reference itinerary.",
-    "human_ground_truth_signoff": "pending team review"
+    "human_ground_truth_signoff": ""
   },
   {
     "case_id": "G04",
@@ -93,7 +93,7 @@
       "IFR_requires_interest_match": false
     },
     "ground_truth_basis": "M2 constraints and frozen dataset labels; no single reference itinerary.",
-    "human_ground_truth_signoff": "pending team review"
+    "human_ground_truth_signoff": ""
   },
   {
     "case_id": "G05",
@@ -117,7 +117,7 @@
       "IFR_requires_interest_match": false
     },
     "ground_truth_basis": "M2 constraints and frozen dataset labels; no single reference itinerary.",
-    "human_ground_truth_signoff": "pending team review"
+    "human_ground_truth_signoff": ""
   },
   {
     "case_id": "G06",
@@ -141,7 +141,7 @@
       "IFR_requires_interest_match": false
     },
     "ground_truth_basis": "M2 constraints and frozen dataset labels; no single reference itinerary.",
-    "human_ground_truth_signoff": "pending team review"
+    "human_ground_truth_signoff": ""
   },
   {
     "case_id": "G07",
@@ -165,7 +165,7 @@
       "IFR_requires_interest_match": false
     },
     "ground_truth_basis": "M2 constraints and frozen dataset labels; no single reference itinerary.",
-    "human_ground_truth_signoff": "pending team review"
+    "human_ground_truth_signoff": ""
   },
   {
     "case_id": "G08",
@@ -189,7 +189,7 @@
       "IFR_requires_interest_match": false
     },
     "ground_truth_basis": "M2 constraints and frozen dataset labels; no single reference itinerary.",
-    "human_ground_truth_signoff": "pending team review"
+    "human_ground_truth_signoff": ""
   },
   {
     "case_id": "G09",
@@ -214,7 +214,7 @@
       "IFR_requires_interest_match": false
     },
     "ground_truth_basis": "M2 constraints and frozen dataset labels; no single reference itinerary.",
-    "human_ground_truth_signoff": "pending team review"
+    "human_ground_truth_signoff": ""
   },
   {
     "case_id": "G10",
@@ -239,7 +239,7 @@
       "IFR_requires_interest_match": false
     },
     "ground_truth_basis": "M2 constraints and frozen dataset labels; no single reference itinerary.",
-    "human_ground_truth_signoff": "pending team review"
+    "human_ground_truth_signoff": ""
   },
   {
     "case_id": "G11",
@@ -264,7 +264,7 @@
       "IFR_requires_interest_match": false
     },
     "ground_truth_basis": "M2 constraints and frozen dataset labels; no single reference itinerary.",
-    "human_ground_truth_signoff": "pending team review"
+    "human_ground_truth_signoff": ""
   },
   {
     "case_id": "G12",
@@ -289,7 +289,7 @@
       "IFR_requires_interest_match": false
     },
     "ground_truth_basis": "M2 constraints and frozen dataset labels; no single reference itinerary.",
-    "human_ground_truth_signoff": "pending team review"
+    "human_ground_truth_signoff": ""
   },
   {
     "case_id": "G13",
@@ -314,7 +314,7 @@
       "IFR_requires_interest_match": false
     },
     "ground_truth_basis": "M2 constraints and frozen dataset labels; no single reference itinerary.",
-    "human_ground_truth_signoff": "pending team review"
+    "human_ground_truth_signoff": ""
   },
   {
     "case_id": "G14",
@@ -339,7 +339,7 @@
       "IFR_requires_interest_match": false
     },
     "ground_truth_basis": "M2 constraints and frozen dataset labels; no single reference itinerary.",
-    "human_ground_truth_signoff": "pending team review"
+    "human_ground_truth_signoff": ""
   },
   {
     "case_id": "G15",
@@ -364,7 +364,7 @@
       "IFR_requires_interest_match": false
     },
     "ground_truth_basis": "M2 constraints and frozen dataset labels; no single reference itinerary.",
-    "human_ground_truth_signoff": "pending team review"
+    "human_ground_truth_signoff": ""
   },
   {
     "case_id": "G16",
@@ -390,7 +390,7 @@
       "IFR_requires_interest_match": false
     },
     "ground_truth_basis": "M2 constraints and frozen dataset labels; no single reference itinerary.",
-    "human_ground_truth_signoff": "pending team review"
+    "human_ground_truth_signoff": ""
   },
   {
     "case_id": "G17",
@@ -416,7 +416,7 @@
       "IFR_requires_interest_match": false
     },
     "ground_truth_basis": "M2 constraints and frozen dataset labels; no single reference itinerary.",
-    "human_ground_truth_signoff": "pending team review"
+    "human_ground_truth_signoff": ""
   },
   {
     "case_id": "G18",
@@ -442,7 +442,7 @@
       "IFR_requires_interest_match": false
     },
     "ground_truth_basis": "M2 constraints and frozen dataset labels; no single reference itinerary.",
-    "human_ground_truth_signoff": "pending team review"
+    "human_ground_truth_signoff": ""
   },
   {
     "case_id": "G19",
@@ -468,7 +468,7 @@
       "IFR_requires_interest_match": false
     },
     "ground_truth_basis": "M2 constraints and frozen dataset labels; no single reference itinerary.",
-    "human_ground_truth_signoff": "pending team review"
+    "human_ground_truth_signoff": ""
   },
   {
     "case_id": "G20",
@@ -494,6 +494,6 @@
       "IFR_requires_interest_match": false
     },
     "ground_truth_basis": "M2 constraints and frozen dataset labels; no single reference itinerary.",
-    "human_ground_truth_signoff": "pending team review"
+    "human_ground_truth_signoff": ""
   }
 ]
