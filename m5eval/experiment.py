@@ -195,4 +195,6 @@ class Experiment:
 
 
 def golden_cases():
-    return read_json(V2 / "baseline_v2_implementation_reference.json")["golden_set"]
+    return read_json(
+        ROOT / "reference" / "golden_cases_m5.json"
+    )["golden_set"]
