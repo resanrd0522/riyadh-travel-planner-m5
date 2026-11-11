@@ -28,7 +28,8 @@ Out of 60 runs, **49** plans passed the structural checks, **9** repeated activi
 Use **Python 3.11 or 3.12**. First place the three original M4 datasets in `data/` as described below. Then open a terminal in the main folder and run:
 
 ```bash
-python scripts/verify_full_cohort.py
+python -m pip install -r requirements.txt
+python scripts/run_checks.py
 ```
 
 This verifies the saved 60-run evidence. **No Gemini API key is needed.**
