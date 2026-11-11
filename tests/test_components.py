@@ -208,9 +208,11 @@ class ComponentTests(unittest.TestCase):
             limit=10
         )
 
-        self.assertEqual(
-            first_activities,
-            second_activities
+        pd.testing.assert_frame_equal(
+            pd.DataFrame(first_activities),
+            pd.DataFrame(second_activities),
+            check_exact=True,
+            check_like=False
         )
 
         first_restaurants = tools.search_restaurants(
@@ -236,15 +238,10 @@ class ComponentTests(unittest.TestCase):
             limit=5
         )
 
-               import pandas as pd
-
-        pd.testing.assert_frame_equal(
-            pd.DataFrame(first_activities),
-            pd.DataFrame(second_activities),
-            check_exact=True,
-            check_like=False
+        self.assertEqual(
+            first_hotels,
+            second_hotels
         )
-
 
 if __name__ == "__main__":
     unittest.main()
