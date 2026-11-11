@@ -236,9 +236,13 @@ class ComponentTests(unittest.TestCase):
             limit=5
         )
 
-        self.assertEqual(
-            first_hotels,
-            second_hotels
+               import pandas as pd
+
+        pd.testing.assert_frame_equal(
+            pd.DataFrame(first_activities),
+            pd.DataFrame(second_activities),
+            check_exact=True,
+            check_like=False
         )
 
 
