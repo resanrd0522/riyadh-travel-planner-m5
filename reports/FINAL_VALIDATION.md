@@ -1,4 +1,4 @@
-# M5 Validation Record — 11 November 2026
+# M5 Validation Record 
 
 ## 1. Automated Test Results
 
